@@ -22,6 +22,8 @@ using System;
 /* John 20150824 */
 #include <sstream>
 
+#include "ExtractConfig.h"
+
 #using <mscorlib.dll>
 using namespace std;
 using namespace System;
@@ -2986,13 +2988,22 @@ int PRODUCT_Initialization()
 		uint16 prjInfo[2];
 		uint16 model;
 		uint16 FirmwareVersion;
+		CString ModelFWInformation;
 		projectInformationStr = "PRJ_INFO: ";
 		if (ReadPskey(2, PSKEY_USER34, prjInfo) == 1)
 		{
 			model = prjInfo[0];
 			FirmwareVersion = prjInfo[1];
-			projectInformationStr.Format("PRJ_INFO: %s V%d", projectModelInfo[model], FirmwareVersion);
-			WriteMainLogFile ("PRODUCT_Initialization : ReadPsKey(PSKEY_USER34) Succeed. model:%d,%d FW:%d,%d, selectedModel = %d", model, prjInfo[0], FirmwareVersion, prjInfo[1], selectedModel);
+			ModelFWInformation.Format("%sV%d", projectModelInfo[model], FirmwareVersion);
+			projectInformationStr.Format("PRJ_INFO: %s", ModelFWInformation);
+			//projectInformationStr.Format("PRJ_INFO: %s V%d", projectModelInfo[model], FirmwareVersion);
+			WriteMainLogFile ("PCBTEST_Initialization : ReadPsKey(PSKEY_USER34) Succeed. model:%d,%d FW:%d,%d, selectedModel = %d", model, prjInfo[0], FirmwareVersion, prjInfo[1], selectedModel);
+			if ( 0 == MatchNameWithConfigFile(CT2A((LPCSTR)ModelFWInformation), VERSION_CONFIG_FILE_PATH)){
+				WriteLogFile("Wrong Model Version");
+				SetStatus("Wrong Model Version");
+				return 0;
+			}
+			
 			if (selectedModel != model)
 			{
 				WriteMainLogFile ("PRODUCT_Initialization : model:%d, selectedModel:%d doesn match", model, selectedModel);
@@ -3140,13 +3151,23 @@ int PCBTEST_Initialization()
 		uint16 prjInfo[2];
 		uint16 model;
 		uint16 FirmwareVersion;
+		CString ModelFWInformation;
 		projectInformationStr = "PRJ_INFO: ";
 		if (ReadPskey(2, PSKEY_USER34, prjInfo) == 1)
 		{
 			model = prjInfo[0];
 			FirmwareVersion = prjInfo[1];
-			projectInformationStr.Format("PRJ_INFO: %s V%d", projectModelInfo[model], FirmwareVersion);
+			
+			ModelFWInformation.Format("%sV%d", projectModelInfo[model], FirmwareVersion);
+			projectInformationStr.Format("PRJ_INFO: %s", ModelFWInformation);
+			//projectInformationStr.Format("PRJ_INFO: %s V%d", projectModelInfo[model], FirmwareVersion);
 			WriteMainLogFile ("PCBTEST_Initialization : ReadPsKey(PSKEY_USER34) Succeed. model:%d,%d FW:%d,%d, selectedModel = %d", model, prjInfo[0], FirmwareVersion, prjInfo[1], selectedModel);
+			if ( 0 == MatchNameWithConfigFile(CT2A((LPCSTR)ModelFWInformation), VERSION_CONFIG_FILE_PATH)){
+				WriteLogFile("Wrong Model Version");
+				SetStatus("Wrong Model Version");
+				return 0;
+			}			
+			
 			/*
 			if (selectedModel != model)
 			{
@@ -8068,8 +8089,8 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest()
 	Begin = Last = GetTickCount()/1000;
 
 	//pcb test routines
-	MultimeterInitFlag = 0;
 
+	MultimeterInitFlag = 0;
 	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES; i++)
 	{	
 		GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Not started"); 
