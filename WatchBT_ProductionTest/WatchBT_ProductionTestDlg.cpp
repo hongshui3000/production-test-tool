@@ -6476,25 +6476,13 @@ static int PCBTEST_serialFlashCheck()
 
 	fclose(sFile);
 
-    ifstream verifyFile("verifyFlashResult.txt");
-    string word;
-    bool found = true;
-
-    while(verifyFile >> word) {
-        if(word == "Success") {
-            SetStatus("FLASH VERIFY FAIL");
-            found = false;
-        }
-    }
-
-    if(!found) {
+	if (MatchNameWithConfigFile("Success", "verifyFlashResult.txt")){
         SetStatus("FLASH VERIFY OK");
         return 1;
-    } 
-	/*else 
-	{
+	}else{
+        SetStatus("FLASH VERIFY FAIL");
         return 0;
-    }*/
+	}
 
 
 	//CsrDevicesClose();// You should close the handle to avoid false IO overlap
