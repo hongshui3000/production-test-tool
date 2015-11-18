@@ -1,0 +1,33 @@
+PCBA Thu Oct 29 14:41:37 2015 1) Initialization: result is 1
+PCBA Thu Oct 29 14:41:37 2015 
+PCBA Thu Oct 29 14:41:45 2015 2) OLED: result is 1
+PCBA Thu Oct 29 14:41:45 2015 
+PCBA Thu Oct 29 14:41:46 2015 V18:1.84, V33:3.35, V135:1.40
+PCBA Thu Oct 29 14:41:46 2015 3) Power Supply: result is 1
+PCBA Thu Oct 29 14:41:46 2015 
+PCBA Thu Oct 29 14:41:50 2015 TRIM VAL 13
+PCBA Thu Oct 29 14:41:50 2015 4) Crystal Trim: result is 1
+PCBA Thu Oct 29 14:41:50 2015 
+PCBA Thu Oct 29 14:41:52 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Thu Oct 29 14:41:54 2015 RSSI_SAMPLES:   86  86  86  86  86  86  86  86  86  
+PCBA Thu Oct 29 14:41:54 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Thu Oct 29 14:41:56 2015 RSSI_SAMPLES:   78  78  78  78  78  78  78  78  78  
+PCBA Thu Oct 29 14:41:56 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Thu Oct 29 14:41:58 2015 RSSI_SAMPLES:   78  78  78  78  78  78  78  78  78  
+PCBA Thu Oct 29 14:41:58 2015 Atn:77,H:10.90,M:13.42,L:15.62
+PCBA Thu Oct 29 14:41:58 2015 5) RF TX Power: result is 1
+PCBA Thu Oct 29 14:41:58 2015 
+PCBA Thu Oct 29 14:42:21 2015 Dut:get BER failed
+PCBA Thu Oct 29 14:42:21 2015 RFReceiveSensitivityTestAtThisFreq:Dut get BER (hqGetBer) failed
+PCBA Thu Oct 29 14:42:31 2015 PCB retry 6) RF RX Sen
+PCBA Thu Oct 29 14:42:31 2015 
+PCBA Thu Oct 29 14:42:55 2015 Dut:get BER failed
+PCBA Thu Oct 29 14:42:55 2015 RFReceiveSensitivityTestAtThisFreq:Dut get BER (hqGetBer) failed
+PCBA Thu Oct 29 14:43:04 2015 PCB retry 6) RF RX Sen
+PCBA Thu Oct 29 14:43:04 2015 
+PCBA Thu Oct 29 14:43:27 2015 Dut:get BER failed
+PCBA Thu Oct 29 14:43:27 2015 RFReceiveSensitivityTestAtThisFreq:Dut get BER (hqGetBer) failed
+PCBA Thu Oct 29 14:43:27 2015 6) RF RX Sen: result is 0
+PCBA Thu Oct 29 14:43:27 2015 PCB OVERALL RESULT is 0
+
+PCBA Thu Oct 29 14:43:40 2015 

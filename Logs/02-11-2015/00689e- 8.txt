@@ -1,0 +1,11 @@
+PCBA Mon Nov 02 12:34:13 2015 
+PCBA Mon Nov 02 12:34:18 2015 DUT is not connected !!!
+PCBA Mon Nov 02 12:34:18 2015 Fail To open DUT
+PCBA Mon Nov 02 12:34:18 2015 Fail To Open DUT
+PCBA Mon Nov 02 12:34:18 2015 
+PCBA Mon Nov 02 12:34:28 2015 DUT is not connected !!!
+PCBA Mon Nov 02 12:34:28 2015 Fail To open DUT
+PCBA Mon Nov 02 12:34:28 2015 Fail To Open DUT
+PCBA Mon Nov 02 12:34:28 2015 1) Initialization: result is 0
+PCBA Mon Nov 02 12:34:28 2015 PCB OVERALL RESULT is 0
+

@@ -1,0 +1,2300 @@
+PCBA Wed Oct 14 15:39:17 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:39:17 2015 
+PCBA Wed Oct 14 15:39:23 2015 PCBTEST_oledTest:display NOT ok.
+PCBA Wed Oct 14 15:39:35 2015 PCB retry 2) OLED
+PCBA Wed Oct 14 15:39:35 2015 
+PCBA Wed Oct 14 15:39:41 2015 2) OLED: result is 1
+PCBA Wed Oct 14 15:39:41 2015 
+PCBA Wed Oct 14 15:39:41 2015 V18:1.81, V33:3.32, V135:1.38
+PCBA Wed Oct 14 15:39:41 2015 3) Power Supply: result is 1
+PCBA Wed Oct 14 15:39:41 2015 
+PCBA Wed Oct 14 15:39:45 2015 TRIM VAL 20
+PCBA Wed Oct 14 15:39:45 2015 4) Crystal Trim: result is 1
+PCBA Wed Oct 14 15:39:45 2015 
+PCBA Wed Oct 14 15:39:48 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:39:50 2015 RSSI_SAMPLES:   99  98  99  98  98  98  98  98  98  
+PCBA Wed Oct 14 15:39:50 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:39:50 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:39:52 2015 RSSI_SAMPLES:   98  98  98  98  98  98  98  98  98  
+PCBA Wed Oct 14 15:39:52 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:39:52 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:39:53 2015 RSSI_SAMPLES:   98  98  98  98  98  98  98  98  98  
+PCBA Wed Oct 14 15:39:53 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:39:53 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Wed Oct 14 15:39:55 2015 RSSI_SAMPLES:   88  88  88  88  89  89  88  89  89  
+PCBA Wed Oct 14 15:39:55 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Wed Oct 14 15:39:57 2015 RSSI_SAMPLES:   90  89  89  89  89  89  89  90  89  
+PCBA Wed Oct 14 15:39:57 2015 Atn:77,H:14.37,M:16.75,L:-255.00
+PCBA Wed Oct 14 15:40:08 2015 PCB retry 5) RF TX Power
+PCBA Wed Oct 14 15:40:08 2015 
+PCBA Wed Oct 14 15:40:11 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:40:13 2015 RSSI_SAMPLES:   98  98  98  98  99  98  98  99  98  
+PCBA Wed Oct 14 15:40:13 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:40:13 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:40:15 2015 RSSI_SAMPLES:   98  98  98  99  98  98  98  98  99  
+PCBA Wed Oct 14 15:40:15 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:40:15 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:40:16 2015 RSSI_SAMPLES:   98  99  98  99  98  99  99  99  99  
+PCBA Wed Oct 14 15:40:16 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:40:16 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Wed Oct 14 15:40:18 2015 RSSI_SAMPLES:   89  88  89  89  89  88  89  89  89  
+PCBA Wed Oct 14 15:40:18 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Wed Oct 14 15:40:20 2015 RSSI_SAMPLES:   89  89  90  90  89  89  89  90  89  
+PCBA Wed Oct 14 15:40:20 2015 Atn:77,H:14.40,M:16.86,L:-255.00
+PCBA Wed Oct 14 15:40:31 2015 PCB retry 5) RF TX Power
+PCBA Wed Oct 14 15:40:31 2015 
+PCBA Wed Oct 14 15:40:34 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:40:36 2015 RSSI_SAMPLES:   99  99  99  99  99  99  99  99  99  
+PCBA Wed Oct 14 15:40:36 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:40:36 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:40:38 2015 RSSI_SAMPLES:   98  99  98  98  98  98  98  98  98  
+PCBA Wed Oct 14 15:40:38 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:40:38 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Wed Oct 14 15:40:39 2015 RSSI_SAMPLES:   98  98  98  98  98  98  98  99  98  
+PCBA Wed Oct 14 15:40:39 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Wed Oct 14 15:40:39 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Wed Oct 14 15:40:41 2015 RSSI_SAMPLES:   88  88  88  88  88  88  88  88  89  
+PCBA Wed Oct 14 15:40:41 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Wed Oct 14 15:40:42 2015 RSSI_SAMPLES:   90  90  90  89  89  89  89  89  89  
+PCBA Wed Oct 14 15:40:42 2015 Atn:77,H:14.40,M:16.65,L:-255.00
+PCBA Wed Oct 14 15:40:42 2015 5) RF TX Power: result is 0
+PCBA Wed Oct 14 15:40:43 2015 PCB OVERALL RESULT is 0
+
+PCBA Wed Oct 14 15:41:00 2015 
+PCBA Wed Oct 14 15:41:09 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:41:09 2015 
+PCBA Wed Oct 14 15:41:11 2015 Peak:0.031
+PCBA Wed Oct 14 15:41:12 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:41:12 2015 
+PCBA Wed Oct 14 15:41:15 2015 standby:-0.00004130
+PCBA Wed Oct 14 15:41:15 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:41:15 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:41:22 2015 
+PCBA Wed Oct 14 15:41:29 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:41:29 2015 
+PCBA Wed Oct 14 15:41:31 2015 Peak:0.029
+PCBA Wed Oct 14 15:41:33 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:41:33 2015 
+PCBA Wed Oct 14 15:41:35 2015 standby:0.00000550
+PCBA Wed Oct 14 15:41:35 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:41:36 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:41:43 2015 
+PCBA Wed Oct 14 15:41:51 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:41:51 2015 
+PCBA Wed Oct 14 15:41:53 2015 Peak:0.030
+PCBA Wed Oct 14 15:41:54 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:41:54 2015 
+PCBA Wed Oct 14 15:41:57 2015 standby:-0.00003980
+PCBA Wed Oct 14 15:41:57 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:41:57 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:42:10 2015 
+PCBA Wed Oct 14 15:42:17 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:42:17 2015 
+PCBA Wed Oct 14 15:42:19 2015 Peak:0.029
+PCBA Wed Oct 14 15:42:21 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:42:21 2015 
+PCBA Wed Oct 14 15:42:24 2015 standby:-0.00003450
+PCBA Wed Oct 14 15:42:24 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:42:24 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:42:47 2015 
+PCBA Wed Oct 14 15:42:54 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:42:54 2015 
+PCBA Wed Oct 14 15:42:56 2015 Peak:-0.031
+PCBA Wed Oct 14 15:42:58 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:42:58 2015 
+PCBA Wed Oct 14 15:43:00 2015 standby:-0.00013540
+PCBA Wed Oct 14 15:43:00 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:43:01 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:43:42 2015 
+PCBA Wed Oct 14 15:43:49 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:43:49 2015 
+PCBA Wed Oct 14 15:43:51 2015 Peak:0.082
+PCBA Wed Oct 14 15:43:52 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:43:52 2015 
+PCBA Wed Oct 14 15:43:55 2015 standby:0.00005250
+PCBA Wed Oct 14 15:43:55 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:43:55 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:44:07 2015 
+PCBA Wed Oct 14 15:44:14 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:44:14 2015 
+PCBA Wed Oct 14 15:44:16 2015 Peak:-0.031
+PCBA Wed Oct 14 15:44:17 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:44:17 2015 
+PCBA Wed Oct 14 15:44:20 2015 standby:-0.00014930
+PCBA Wed Oct 14 15:44:20 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:44:20 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:44:32 2015 
+PCBA Wed Oct 14 15:44:40 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:44:40 2015 
+PCBA Wed Oct 14 15:44:42 2015 Peak:0.030
+PCBA Wed Oct 14 15:44:43 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:44:43 2015 
+PCBA Wed Oct 14 15:44:46 2015 standby:-0.00000620
+PCBA Wed Oct 14 15:44:46 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:44:46 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:45:13 2015 
+PCBA Wed Oct 14 15:45:22 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:45:22 2015 
+PCBA Wed Oct 14 15:45:24 2015 Peak:-0.030
+PCBA Wed Oct 14 15:45:25 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:45:25 2015 
+PCBA Wed Oct 14 15:45:28 2015 standby:-0.00012670
+PCBA Wed Oct 14 15:45:28 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:45:28 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:46:12 2015 
+PCBA Wed Oct 14 15:46:59 2015 DUT is not connected !!!
+PCBA Wed Oct 14 15:46:59 2015 Fail To open DUT
+PCBA Wed Oct 14 15:46:59 2015 Fail To Open DUT
+PCBA Wed Oct 14 15:46:59 2015 
+PCBA Wed Oct 14 15:47:59 2015 DUT is not connected !!!
+PCBA Wed Oct 14 15:47:59 2015 Fail To open DUT
+PCBA Wed Oct 14 15:47:59 2015 Fail To Open DUT
+PCBA Wed Oct 14 15:47:59 2015 1) Initialization: result is 0
+PCBA Wed Oct 14 15:47:59 2015 PCB OVERALL RESULT is 0
+
+PCBA Wed Oct 14 16:46:54 2015 
+PCBA Wed Oct 14 16:47:16 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:47:16 2015 Fail To open DUT
+PCBA Wed Oct 14 16:47:16 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:47:16 2015 
+PCBA Wed Oct 14 16:47:24 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:47:24 2015 Fail To open DUT
+PCBA Wed Oct 14 16:47:24 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:47:24 2015 1) Initialization: result is 0
+PCBA Wed Oct 14 16:47:24 2015 PCB OVERALL RESULT is 0
+
+PCBA Wed Oct 14 16:47:58 2015 
+PCBA Wed Oct 14 16:48:02 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:48:02 2015 Fail To open DUT
+PCBA Wed Oct 14 16:48:02 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:48:02 2015 
+PCBA Wed Oct 14 16:48:10 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:48:10 2015 Fail To open DUT
+PCBA Wed Oct 14 16:48:10 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:48:10 2015 1) Initialization: result is 0
+PCBA Wed Oct 14 16:48:10 2015 PCB OVERALL RESULT is 0
+
+PCBA Wed Oct 14 16:48:16 2015 
+PCBA Wed Oct 14 16:48:20 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:48:20 2015 Fail To open DUT
+PCBA Wed Oct 14 16:48:20 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:48:20 2015 
+PCBA Wed Oct 14 16:48:28 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:48:28 2015 Fail To open DUT
+PCBA Wed Oct 14 16:48:28 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:48:28 2015 1) Initialization: result is 0
+PCBA Wed Oct 14 16:48:28 2015 PCB OVERALL RESULT is 0
+
+PCBA Wed Oct 14 16:50:21 2015 
+PCBA Wed Oct 14 16:50:24 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:50:24 2015 Fail To open DUT
+PCBA Wed Oct 14 16:50:24 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:50:24 2015 
+PCBA Wed Oct 14 16:50:33 2015 DUT is not connected !!!
+PCBA Wed Oct 14 16:50:33 2015 Fail To open DUT
+PCBA Wed Oct 14 16:50:33 2015 Fail To Open DUT
+PCBA Wed Oct 14 16:50:33 2015 1) Initialization: result is 0
+PCBA Wed Oct 14 16:50:33 2015 PCB OVERALL RESULT is 0
+
+PCBA Wed Oct 14 16:51:14 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:51:14 2015 
+PCBA Wed Oct 14 16:51:19 2015 standby:-0.00005010
+PCBA Wed Oct 14 16:51:19 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:51:19 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:51:33 2015 
+PCBA Wed Oct 14 16:51:40 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:51:40 2015 
+PCBA Wed Oct 14 16:51:45 2015 standby:-0.00005690
+PCBA Wed Oct 14 16:51:45 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:51:45 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:52:08 2015 
+PCBA Wed Oct 14 16:52:16 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:52:16 2015 
+PCBA Wed Oct 14 16:52:20 2015 standby:-0.00003540
+PCBA Wed Oct 14 16:52:20 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:52:20 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:52:34 2015 
+PCBA Wed Oct 14 16:52:42 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:52:42 2015 
+PCBA Wed Oct 14 16:52:46 2015 standby:0.00012170
+PCBA Wed Oct 14 16:52:46 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:52:46 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:53:20 2015 
+PCBA Wed Oct 14 16:53:28 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:53:28 2015 
+PCBA Wed Oct 14 16:53:30 2015 Peak:0.074
+PCBA Wed Oct 14 16:53:31 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:53:31 2015 
+PCBA Wed Oct 14 16:53:34 2015 standby:0.00018940
+PCBA Wed Oct 14 16:53:34 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:53:34 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:53:48 2015 
+PCBA Wed Oct 14 16:53:55 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:53:55 2015 
+PCBA Wed Oct 14 16:53:57 2015 Peak:-0.029
+PCBA Wed Oct 14 16:53:58 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:53:58 2015 
+PCBA Wed Oct 14 16:54:01 2015 standby:-0.00001150
+PCBA Wed Oct 14 16:54:01 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:54:02 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:54:25 2015 
+PCBA Wed Oct 14 16:54:32 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:54:32 2015 
+PCBA Wed Oct 14 16:54:35 2015 Peak:0.030
+PCBA Wed Oct 14 16:54:36 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:54:36 2015 
+PCBA Wed Oct 14 16:54:39 2015 standby:0.00003180
+PCBA Wed Oct 14 16:54:39 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:54:39 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:55:02 2015 
+PCBA Wed Oct 14 16:55:09 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:55:09 2015 
+PCBA Wed Oct 14 16:55:11 2015 Peak:0.083
+PCBA Wed Oct 14 16:55:12 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:55:12 2015 
+PCBA Wed Oct 14 16:55:15 2015 standby:0.00016390
+PCBA Wed Oct 14 16:55:15 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:55:15 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:56:50 2015 
+PCBA Wed Oct 14 16:56:57 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:56:57 2015 
+PCBA Wed Oct 14 16:56:59 2015 Peak:-0.029
+PCBA Wed Oct 14 16:57:00 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:57:00 2015 
+PCBA Wed Oct 14 16:57:03 2015 standby:-0.00005380
+PCBA Wed Oct 14 16:57:03 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:57:04 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:57:31 2015 
+PCBA Wed Oct 14 16:57:38 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:57:38 2015 
+PCBA Wed Oct 14 16:57:40 2015 Peak:0.030
+PCBA Wed Oct 14 16:57:41 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:57:41 2015 
+PCBA Wed Oct 14 16:57:44 2015 standby:0.00007580
+PCBA Wed Oct 14 16:57:44 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:57:44 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 16:58:20 2015 
+PCBA Wed Oct 14 16:58:28 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 16:58:28 2015 
+PCBA Wed Oct 14 16:58:30 2015 Peak:0.032
+PCBA Wed Oct 14 16:58:31 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 16:58:31 2015 
+PCBA Wed Oct 14 16:58:34 2015 standby:0.00008080
+PCBA Wed Oct 14 16:58:34 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 16:58:34 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 17:07:48 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:07:48 2015 
+PCBA Wed Oct 14 17:07:49 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 0
+PCBA Wed Oct 14 17:07:49 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 1
+PCBA Wed Oct 14 17:07:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 2
+PCBA Wed Oct 14 17:07:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 3
+PCBA Wed Oct 14 17:07:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 4
+PCBA Wed Oct 14 17:07:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 5
+PCBA Wed Oct 14 17:07:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 6
+PCBA Wed Oct 14 17:07:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 7
+PCBA Wed Oct 14 17:07:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 8
+PCBA Wed Oct 14 17:07:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 9
+PCBA Wed Oct 14 17:07:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 10
+PCBA Wed Oct 14 17:07:52 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:07:52 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:07:56 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:07:56 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:08:07 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 17:08:07 2015 
+PCBA Wed Oct 14 17:08:09 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 0
+PCBA Wed Oct 14 17:08:09 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 1
+PCBA Wed Oct 14 17:08:09 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 2
+PCBA Wed Oct 14 17:08:09 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 3
+PCBA Wed Oct 14 17:08:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 4
+PCBA Wed Oct 14 17:08:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 5
+PCBA Wed Oct 14 17:08:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 6
+PCBA Wed Oct 14 17:08:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 7
+PCBA Wed Oct 14 17:08:11 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 8
+PCBA Wed Oct 14 17:08:11 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 9
+PCBA Wed Oct 14 17:08:11 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 10
+PCBA Wed Oct 14 17:08:11 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:08:11 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:08:12 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:08:12 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:08:23 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 17:08:23 2015 
+PCBA Wed Oct 14 17:08:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 0
+PCBA Wed Oct 14 17:08:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 1
+PCBA Wed Oct 14 17:08:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 2
+PCBA Wed Oct 14 17:08:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 3
+PCBA Wed Oct 14 17:08:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 4
+PCBA Wed Oct 14 17:08:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 5
+PCBA Wed Oct 14 17:08:26 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 6
+PCBA Wed Oct 14 17:08:26 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 7
+PCBA Wed Oct 14 17:08:26 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 8
+PCBA Wed Oct 14 17:08:26 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 9
+PCBA Wed Oct 14 17:08:27 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253272, num_of_attempts is 10
+PCBA Wed Oct 14 17:08:27 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:08:27 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:08:32 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:08:32 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:08:32 2015 10) Peak current: result is -1
+PCBA Wed Oct 14 17:08:32 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:08:37 2015 
+PCBA Wed Oct 14 17:08:44 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:08:44 2015 
+PCBA Wed Oct 14 17:08:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 0
+PCBA Wed Oct 14 17:08:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 1
+PCBA Wed Oct 14 17:08:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 2
+PCBA Wed Oct 14 17:08:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 3
+PCBA Wed Oct 14 17:08:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 4
+PCBA Wed Oct 14 17:08:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 5
+PCBA Wed Oct 14 17:08:47 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 6
+PCBA Wed Oct 14 17:08:47 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 7
+PCBA Wed Oct 14 17:08:47 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 8
+PCBA Wed Oct 14 17:08:47 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 9
+PCBA Wed Oct 14 17:08:48 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 10
+PCBA Wed Oct 14 17:08:48 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:08:48 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:08:50 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:08:50 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:09:01 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:09:01 2015 
+PCBA Wed Oct 14 17:09:02 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 0
+PCBA Wed Oct 14 17:09:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 1
+PCBA Wed Oct 14 17:09:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 2
+PCBA Wed Oct 14 17:09:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 3
+PCBA Wed Oct 14 17:09:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 4
+PCBA Wed Oct 14 17:09:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 5
+PCBA Wed Oct 14 17:09:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 6
+PCBA Wed Oct 14 17:09:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 7
+PCBA Wed Oct 14 17:09:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 8
+PCBA Wed Oct 14 17:09:05 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 9
+PCBA Wed Oct 14 17:09:05 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 10
+PCBA Wed Oct 14 17:09:05 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:09:05 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:09:06 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:09:06 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:09:17 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:09:17 2015 
+PCBA Wed Oct 14 17:09:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 0
+PCBA Wed Oct 14 17:09:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 1
+PCBA Wed Oct 14 17:09:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 2
+PCBA Wed Oct 14 17:09:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 3
+PCBA Wed Oct 14 17:09:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 4
+PCBA Wed Oct 14 17:09:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 5
+PCBA Wed Oct 14 17:09:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 6
+PCBA Wed Oct 14 17:09:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 7
+PCBA Wed Oct 14 17:09:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 8
+PCBA Wed Oct 14 17:09:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 9
+PCBA Wed Oct 14 17:09:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 4253192, num_of_attempts is 10
+PCBA Wed Oct 14 17:09:20 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:09:20 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:09:21 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:09:21 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:09:21 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:09:21 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:11:42 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:11:42 2015 
+PCBA Wed Oct 14 17:11:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 0
+PCBA Wed Oct 14 17:11:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 1
+PCBA Wed Oct 14 17:11:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 2
+PCBA Wed Oct 14 17:11:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 3
+PCBA Wed Oct 14 17:11:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 4
+PCBA Wed Oct 14 17:11:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 5
+PCBA Wed Oct 14 17:11:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 6
+PCBA Wed Oct 14 17:11:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 7
+PCBA Wed Oct 14 17:11:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 8
+PCBA Wed Oct 14 17:11:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 9
+PCBA Wed Oct 14 17:11:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 10
+PCBA Wed Oct 14 17:11:46 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:11:46 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:11:48 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:11:48 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:12:00 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:12:00 2015 
+PCBA Wed Oct 14 17:12:02 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 0
+PCBA Wed Oct 14 17:12:02 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 1
+PCBA Wed Oct 14 17:12:02 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 2
+PCBA Wed Oct 14 17:12:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 3
+PCBA Wed Oct 14 17:12:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 4
+PCBA Wed Oct 14 17:12:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 5
+PCBA Wed Oct 14 17:12:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 6
+PCBA Wed Oct 14 17:12:03 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 7
+PCBA Wed Oct 14 17:12:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 8
+PCBA Wed Oct 14 17:12:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 9
+PCBA Wed Oct 14 17:12:04 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 10
+PCBA Wed Oct 14 17:12:04 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:12:04 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:12:05 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:12:05 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:12:16 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:12:16 2015 
+PCBA Wed Oct 14 17:12:17 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 0
+PCBA Wed Oct 14 17:12:17 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 1
+PCBA Wed Oct 14 17:12:17 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 2
+PCBA Wed Oct 14 17:12:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 3
+PCBA Wed Oct 14 17:12:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 4
+PCBA Wed Oct 14 17:12:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 5
+PCBA Wed Oct 14 17:12:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 6
+PCBA Wed Oct 14 17:12:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 7
+PCBA Wed Oct 14 17:12:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 8
+PCBA Wed Oct 14 17:12:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 9
+PCBA Wed Oct 14 17:12:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 10
+PCBA Wed Oct 14 17:12:19 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:12:19 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:12:28 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:12:28 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:12:28 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:12:28 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:12:41 2015 
+PCBA Wed Oct 14 17:12:48 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:12:48 2015 
+PCBA Wed Oct 14 17:12:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 0
+PCBA Wed Oct 14 17:12:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 1
+PCBA Wed Oct 14 17:12:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 2
+PCBA Wed Oct 14 17:12:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 3
+PCBA Wed Oct 14 17:12:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 4
+PCBA Wed Oct 14 17:12:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 5
+PCBA Wed Oct 14 17:12:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 6
+PCBA Wed Oct 14 17:12:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 7
+PCBA Wed Oct 14 17:12:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 8
+PCBA Wed Oct 14 17:12:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 9
+PCBA Wed Oct 14 17:12:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 10
+PCBA Wed Oct 14 17:12:52 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:12:52 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:13:07 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:13:07 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:13:19 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:13:19 2015 
+PCBA Wed Oct 14 17:13:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 0
+PCBA Wed Oct 14 17:13:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 1
+PCBA Wed Oct 14 17:13:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 2
+PCBA Wed Oct 14 17:13:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 3
+PCBA Wed Oct 14 17:13:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 4
+PCBA Wed Oct 14 17:13:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 5
+PCBA Wed Oct 14 17:13:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 6
+PCBA Wed Oct 14 17:13:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 7
+PCBA Wed Oct 14 17:13:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 8
+PCBA Wed Oct 14 17:13:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 9
+PCBA Wed Oct 14 17:13:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 10
+PCBA Wed Oct 14 17:13:23 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:13:23 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:13:38 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:13:38 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:13:49 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:13:49 2015 
+PCBA Wed Oct 14 17:13:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 0
+PCBA Wed Oct 14 17:13:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 1
+PCBA Wed Oct 14 17:13:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 2
+PCBA Wed Oct 14 17:13:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 3
+PCBA Wed Oct 14 17:13:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 4
+PCBA Wed Oct 14 17:13:51 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 5
+PCBA Wed Oct 14 17:13:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 6
+PCBA Wed Oct 14 17:13:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 7
+PCBA Wed Oct 14 17:13:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 8
+PCBA Wed Oct 14 17:13:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 9
+PCBA Wed Oct 14 17:13:53 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728712, num_of_attempts is 10
+PCBA Wed Oct 14 17:13:53 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:13:53 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:13:54 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:13:54 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:13:54 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:13:54 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:14:00 2015 
+PCBA Wed Oct 14 17:14:09 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:14:09 2015 
+PCBA Wed Oct 14 17:14:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 0
+PCBA Wed Oct 14 17:14:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 1
+PCBA Wed Oct 14 17:14:10 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 2
+PCBA Wed Oct 14 17:14:11 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 3
+PCBA Wed Oct 14 17:14:11 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 4
+PCBA Wed Oct 14 17:14:11 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 5
+PCBA Wed Oct 14 17:14:12 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 6
+PCBA Wed Oct 14 17:14:12 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 7
+PCBA Wed Oct 14 17:14:12 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 8
+PCBA Wed Oct 14 17:14:12 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 9
+PCBA Wed Oct 14 17:14:13 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 10
+PCBA Wed Oct 14 17:14:13 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:14:13 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:14:14 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:14:14 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:14:26 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 17:14:26 2015 
+PCBA Wed Oct 14 17:14:28 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 0
+PCBA Wed Oct 14 17:14:28 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 1
+PCBA Wed Oct 14 17:14:28 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 2
+PCBA Wed Oct 14 17:14:28 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 3
+PCBA Wed Oct 14 17:14:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 4
+PCBA Wed Oct 14 17:14:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 5
+PCBA Wed Oct 14 17:14:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 6
+PCBA Wed Oct 14 17:14:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 7
+PCBA Wed Oct 14 17:14:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 8
+PCBA Wed Oct 14 17:14:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 9
+PCBA Wed Oct 14 17:14:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 10
+PCBA Wed Oct 14 17:14:30 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:14:30 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:16:06 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:16:06 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:16:17 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 17:16:17 2015 
+PCBA Wed Oct 14 17:16:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 0
+PCBA Wed Oct 14 17:16:18 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 1
+PCBA Wed Oct 14 17:16:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 2
+PCBA Wed Oct 14 17:16:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 3
+PCBA Wed Oct 14 17:16:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 4
+PCBA Wed Oct 14 17:16:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 5
+PCBA Wed Oct 14 17:16:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 6
+PCBA Wed Oct 14 17:16:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 7
+PCBA Wed Oct 14 17:16:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 8
+PCBA Wed Oct 14 17:16:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 9
+PCBA Wed Oct 14 17:16:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 3728792, num_of_attempts is 10
+PCBA Wed Oct 14 17:16:21 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 17:16:21 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:16:23 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:16:23 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:16:23 2015 10) Peak current: result is -1
+PCBA Wed Oct 14 17:16:23 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:16:58 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:16:58 2015 
+PCBA Wed Oct 14 17:16:59 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 0
+PCBA Wed Oct 14 17:16:59 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 1
+PCBA Wed Oct 14 17:17:00 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 2
+PCBA Wed Oct 14 17:17:00 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 3
+PCBA Wed Oct 14 17:17:00 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 4
+PCBA Wed Oct 14 17:17:00 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 5
+PCBA Wed Oct 14 17:17:01 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 6
+PCBA Wed Oct 14 17:17:01 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 7
+PCBA Wed Oct 14 17:17:01 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 8
+PCBA Wed Oct 14 17:17:01 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 9
+PCBA Wed Oct 14 17:17:02 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 10
+PCBA Wed Oct 14 17:17:02 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:17:02 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:17:10 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:17:10 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:17:22 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:17:22 2015 
+PCBA Wed Oct 14 17:17:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 0
+PCBA Wed Oct 14 17:17:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 1
+PCBA Wed Oct 14 17:17:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 2
+PCBA Wed Oct 14 17:17:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 3
+PCBA Wed Oct 14 17:17:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 4
+PCBA Wed Oct 14 17:17:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 5
+PCBA Wed Oct 14 17:17:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 6
+PCBA Wed Oct 14 17:17:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 7
+PCBA Wed Oct 14 17:17:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 8
+PCBA Wed Oct 14 17:17:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 9
+PCBA Wed Oct 14 17:17:26 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 10
+PCBA Wed Oct 14 17:17:26 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:17:26 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:17:32 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:17:32 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:17:42 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:17:42 2015 
+PCBA Wed Oct 14 17:17:43 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 0
+PCBA Wed Oct 14 17:17:43 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 1
+PCBA Wed Oct 14 17:17:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 2
+PCBA Wed Oct 14 17:17:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 3
+PCBA Wed Oct 14 17:17:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 4
+PCBA Wed Oct 14 17:17:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 5
+PCBA Wed Oct 14 17:17:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 6
+PCBA Wed Oct 14 17:17:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 7
+PCBA Wed Oct 14 17:17:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 8
+PCBA Wed Oct 14 17:17:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 9
+PCBA Wed Oct 14 17:17:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285768, num_of_attempts is 10
+PCBA Wed Oct 14 17:17:46 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:17:46 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:17:47 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:17:47 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:17:47 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:17:47 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:18:01 2015 
+PCBA Wed Oct 14 17:18:08 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:18:08 2015 
+PCBA Wed Oct 14 17:18:13 2015 2) OLED: result is 1
+PCBA Wed Oct 14 17:18:13 2015 
+PCBA Wed Oct 14 17:18:14 2015 V18:1.81, V33:3.32, V135:1.38
+PCBA Wed Oct 14 17:18:14 2015 3) Power Supply: result is 1
+PCBA Wed Oct 14 17:18:14 2015 
+PCBA Wed Oct 14 17:18:18 2015 TRIM VAL 20
+PCBA Wed Oct 14 17:18:18 2015 4) Crystal Trim: result is 1
+PCBA Wed Oct 14 17:18:18 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 17:18:24 2015 
+PCBA Wed Oct 14 17:18:31 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:18:31 2015 
+PCBA Wed Oct 14 17:18:37 2015 2) OLED: result is 1
+PCBA Wed Oct 14 17:18:37 2015 
+PCBA Wed Oct 14 17:18:37 2015 V18:1.81, V33:3.32, V135:1.37
+PCBA Wed Oct 14 17:18:37 2015 3) Power Supply: result is 1
+PCBA Wed Oct 14 17:18:37 2015 
+PCBA Wed Oct 14 17:18:41 2015 TRIM VAL 21
+PCBA Wed Oct 14 17:18:41 2015 4) Crystal Trim: result is 1
+PCBA Wed Oct 14 17:18:41 2015 
+PCBA Wed Oct 14 17:18:42 2015 Fail To open PC's microphone as input device
+PCBA Wed Oct 14 17:18:42 2015 RunAudioTestAtThisFreq:Could not open PC's microphone as input device.
+PCBA Wed Oct 14 17:18:42 2015 Sp:1k:-1.#J  2k:-1.#J  3k:-1.#J Other:-1.#J Speaker Test Failed at: 
+PCBA Wed Oct 14 17:18:54 2015 PCB retry 7) Speaker Mic
+PCBA Wed Oct 14 17:18:54 2015 
+PCBA Wed Oct 14 17:18:54 2015 Fail To open PC's microphone as input device
+PCBA Wed Oct 14 17:18:54 2015 RunAudioTestAtThisFreq:Could not open PC's microphone as input device.
+PCBA Wed Oct 14 17:18:54 2015 Sp:1k:-1.#J  2k:-1.#J  3k:-1.#J Other:-1.#J Speaker Test Failed at: 
+PCBA Wed Oct 14 17:19:05 2015 PCB retry 7) Speaker Mic
+PCBA Wed Oct 14 17:19:05 2015 
+PCBA Wed Oct 14 17:19:05 2015 Fail To open PC's microphone as input device
+PCBA Wed Oct 14 17:19:05 2015 RunAudioTestAtThisFreq:Could not open PC's microphone as input device.
+PCBA Wed Oct 14 17:19:05 2015 Sp:1k:-1.#J  2k:-1.#J  3k:-1.#J Other:-1.#J Speaker Test Failed at: 
+PCBA Wed Oct 14 17:19:05 2015 7) Speaker Mic: result is -1
+PCBA Wed Oct 14 17:19:05 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:19:12 2015 
+PCBA Wed Oct 14 17:19:19 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:19:19 2015 
+PCBA Wed Oct 14 17:19:23 2015 2) OLED: result is 1
+PCBA Wed Oct 14 17:19:23 2015 
+PCBA Wed Oct 14 17:19:24 2015 V18:1.81, V33:3.32, V135:1.38
+PCBA Wed Oct 14 17:19:24 2015 3) Power Supply: result is 1
+PCBA Wed Oct 14 17:19:24 2015 
+PCBA Wed Oct 14 17:19:28 2015 TRIM VAL 19
+PCBA Wed Oct 14 17:19:28 2015 4) Crystal Trim: result is 1
+PCBA Wed Oct 14 17:19:28 2015 
+PCBA Wed Oct 14 17:19:30 2015 8) Accelerometer: result is 1
+PCBA Wed Oct 14 17:19:30 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 17:19:34 2015 
+PCBA Wed Oct 14 17:19:42 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:19:42 2015 
+PCBA Wed Oct 14 17:19:48 2015 2) OLED: result is 1
+PCBA Wed Oct 14 17:19:48 2015 
+PCBA Wed Oct 14 17:19:48 2015 V18:1.81, V33:3.32, V135:1.37
+PCBA Wed Oct 14 17:19:48 2015 3) Power Supply: result is 1
+PCBA Wed Oct 14 17:19:48 2015 
+PCBA Wed Oct 14 17:19:53 2015 TRIM VAL 20
+PCBA Wed Oct 14 17:19:53 2015 4) Crystal Trim: result is 1
+PCBA Wed Oct 14 17:19:53 2015 
+PCBA Wed Oct 14 17:19:54 2015 8) Accelerometer: result is 1
+PCBA Wed Oct 14 17:19:54 2015 
+PCBA Wed Oct 14 17:19:54 2015 B1(on):16,(off):0,B2(on):32,(off):0
+PCBA Wed Oct 14 17:19:54 2015 9) Push buttons: result is 1
+PCBA Wed Oct 14 17:19:54 2015 
+PCBA Wed Oct 14 17:19:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 0
+PCBA Wed Oct 14 17:19:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 1
+PCBA Wed Oct 14 17:19:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 2
+PCBA Wed Oct 14 17:19:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 3
+PCBA Wed Oct 14 17:19:57 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 4
+PCBA Wed Oct 14 17:19:57 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 5
+PCBA Wed Oct 14 17:19:57 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 6
+PCBA Wed Oct 14 17:19:57 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 7
+PCBA Wed Oct 14 17:19:58 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 8
+PCBA Wed Oct 14 17:19:58 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 9
+PCBA Wed Oct 14 17:19:58 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 10
+PCBA Wed Oct 14 17:19:58 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:19:58 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:20:16 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:20:16 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:20:27 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 17:20:27 2015 
+PCBA Wed Oct 14 17:20:28 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 0
+PCBA Wed Oct 14 17:20:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 1
+PCBA Wed Oct 14 17:20:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 2
+PCBA Wed Oct 14 17:20:29 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 3
+PCBA Wed Oct 14 17:20:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 4
+PCBA Wed Oct 14 17:20:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 5
+PCBA Wed Oct 14 17:20:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 6
+PCBA Wed Oct 14 17:20:30 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 7
+PCBA Wed Oct 14 17:20:31 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 8
+PCBA Wed Oct 14 17:20:31 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 9
+PCBA Wed Oct 14 17:20:31 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 10
+PCBA Wed Oct 14 17:20:31 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:20:31 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:20:32 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:20:32 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:20:43 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 17:20:43 2015 
+PCBA Wed Oct 14 17:20:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 0
+PCBA Wed Oct 14 17:20:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 1
+PCBA Wed Oct 14 17:20:44 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 2
+PCBA Wed Oct 14 17:20:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 3
+PCBA Wed Oct 14 17:20:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 4
+PCBA Wed Oct 14 17:20:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 5
+PCBA Wed Oct 14 17:20:45 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 6
+PCBA Wed Oct 14 17:20:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 7
+PCBA Wed Oct 14 17:20:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 8
+PCBA Wed Oct 14 17:20:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 9
+PCBA Wed Oct 14 17:20:46 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2285848, num_of_attempts is 10
+PCBA Wed Oct 14 17:20:46 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 17:20:46 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:20:47 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:20:47 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:20:47 2015 10) Peak current: result is -1
+PCBA Wed Oct 14 17:20:48 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:24:41 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:24:41 2015 
+PCBA Wed Oct 14 17:24:43 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 0
+PCBA Wed Oct 14 17:24:43 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 1
+PCBA Wed Oct 14 17:24:44 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 2
+PCBA Wed Oct 14 17:24:44 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 3
+PCBA Wed Oct 14 17:24:45 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 4
+PCBA Wed Oct 14 17:24:45 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 5
+PCBA Wed Oct 14 17:24:46 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 6
+PCBA Wed Oct 14 17:24:46 2015 MultimeterInit:resp :c:curr:dc:rang:upp?
+ does not contain 2811592, num_of_attempts is 7
+PCBA Wed Oct 14 17:24:46 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 8
+PCBA Wed Oct 14 17:24:47 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 9
+PCBA Wed Oct 14 17:24:47 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 10
+PCBA Wed Oct 14 17:24:47 2015 resp is :c
+ num_of_attempts 11
+PCBA Wed Oct 14 17:24:47 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:24:50 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:24:50 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:25:02 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:25:02 2015 
+PCBA Wed Oct 14 17:25:03 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 0
+PCBA Wed Oct 14 17:25:04 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 1
+PCBA Wed Oct 14 17:25:04 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 2
+PCBA Wed Oct 14 17:25:05 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 3
+PCBA Wed Oct 14 17:25:05 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 4
+PCBA Wed Oct 14 17:25:06 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 5
+PCBA Wed Oct 14 17:25:06 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 6
+PCBA Wed Oct 14 17:25:07 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 7
+PCBA Wed Oct 14 17:25:07 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 8
+PCBA Wed Oct 14 17:25:07 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 9
+PCBA Wed Oct 14 17:25:08 2015 MultimeterInit:resp :crr:dc:rang:upp?
+ does not contain 2811592, num_of_attempts is 10
+PCBA Wed Oct 14 17:25:08 2015 resp is :crr:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:25:08 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:25:09 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:25:09 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:25:20 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:25:20 2015 
+PCBA Wed Oct 14 17:25:21 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 0
+PCBA Wed Oct 14 17:25:22 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 1
+PCBA Wed Oct 14 17:25:22 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 2
+PCBA Wed Oct 14 17:25:22 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 3
+PCBA Wed Oct 14 17:25:23 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 4
+PCBA Wed Oct 14 17:25:23 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 5
+PCBA Wed Oct 14 17:25:24 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 6
+PCBA Wed Oct 14 17:25:24 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 7
+PCBA Wed Oct 14 17:25:25 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 8
+PCBA Wed Oct 14 17:25:25 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 9
+PCBA Wed Oct 14 17:25:25 2015 MultimeterInit:resp :c:curr:dc:rang:upp?
+ does not contain 2811592, num_of_attempts is 10
+PCBA Wed Oct 14 17:25:25 2015 resp is :c:curr:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:25:25 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:25:28 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:25:28 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:25:28 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:25:28 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:25:35 2015 
+PCBA Wed Oct 14 17:25:43 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:25:43 2015 
+PCBA Wed Oct 14 17:25:45 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 0
+PCBA Wed Oct 14 17:25:45 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 1
+PCBA Wed Oct 14 17:25:45 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 2
+PCBA Wed Oct 14 17:25:46 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 3
+PCBA Wed Oct 14 17:25:46 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 4
+PCBA Wed Oct 14 17:25:47 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 5
+PCBA Wed Oct 14 17:25:47 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 6
+PCBA Wed Oct 14 17:25:48 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 7
+PCBA Wed Oct 14 17:25:48 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 8
+PCBA Wed Oct 14 17:25:48 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 9
+PCBA Wed Oct 14 17:25:49 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 10
+PCBA Wed Oct 14 17:25:49 2015 resp is :c
+ num_of_attempts 11
+PCBA Wed Oct 14 17:25:49 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:25:52 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:25:52 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:26:04 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:26:04 2015 
+PCBA Wed Oct 14 17:26:05 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 0
+PCBA Wed Oct 14 17:26:06 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 1
+PCBA Wed Oct 14 17:26:06 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 2
+PCBA Wed Oct 14 17:26:07 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 3
+PCBA Wed Oct 14 17:26:07 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 4
+PCBA Wed Oct 14 17:26:07 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 5
+PCBA Wed Oct 14 17:26:08 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 6
+PCBA Wed Oct 14 17:26:08 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 7
+PCBA Wed Oct 14 17:26:09 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 8
+PCBA Wed Oct 14 17:26:09 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 9
+PCBA Wed Oct 14 17:26:09 2015 MultimeterInit:resp :c:curr:dc:rang:upp?
+ does not contain 2811592, num_of_attempts is 10
+PCBA Wed Oct 14 17:26:09 2015 resp is :c:curr:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:26:09 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:26:10 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:26:10 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:26:21 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:26:21 2015 
+PCBA Wed Oct 14 17:26:23 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 0
+PCBA Wed Oct 14 17:26:23 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 1
+PCBA Wed Oct 14 17:26:24 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 2
+PCBA Wed Oct 14 17:26:24 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 3
+PCBA Wed Oct 14 17:26:24 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 4
+PCBA Wed Oct 14 17:26:25 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 5
+PCBA Wed Oct 14 17:26:25 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 6
+PCBA Wed Oct 14 17:26:26 2015 MultimeterInit:resp :c
+ does not contain 2811592, num_of_attempts is 7
+PCBA Wed Oct 14 17:26:26 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 8
+PCBA Wed Oct 14 17:26:27 2015 MultimeterInit:resp  does not contain 2811592, num_of_attempts is 9
+PCBA Wed Oct 14 17:26:27 2015 MultimeterInit:resp :cr:dc:rang:upp?
+ does not contain 2811592, num_of_attempts is 10
+PCBA Wed Oct 14 17:26:27 2015 resp is :cr:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:26:27 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:26:28 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:26:28 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:26:28 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:26:29 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:35:30 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:35:30 2015 
+PCBA Wed Oct 14 17:35:31 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 0
+PCBA Wed Oct 14 17:35:31 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 1
+PCBA Wed Oct 14 17:35:32 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 2
+PCBA Wed Oct 14 17:35:32 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 3
+PCBA Wed Oct 14 17:35:33 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 4
+PCBA Wed Oct 14 17:35:33 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 5
+PCBA Wed Oct 14 17:35:34 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 6
+PCBA Wed Oct 14 17:35:34 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 7
+PCBA Wed Oct 14 17:35:35 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 8
+PCBA Wed Oct 14 17:35:35 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 9
+PCBA Wed Oct 14 17:35:35 2015 MultimeterInit:resp :curr:dc:rang:upp?
+20
+ does not contain 4450360, num_of_attempts is 10
+PCBA Wed Oct 14 17:35:35 2015 resp is :curr:dc:rang:upp?
+20
+ num_of_attempts 11
+PCBA Wed Oct 14 17:35:35 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:35:45 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:35:45 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:35:57 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:35:57 2015 
+PCBA Wed Oct 14 17:35:58 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 0
+PCBA Wed Oct 14 17:35:59 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 1
+PCBA Wed Oct 14 17:35:59 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 2
+PCBA Wed Oct 14 17:36:00 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 3
+PCBA Wed Oct 14 17:36:00 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 4
+PCBA Wed Oct 14 17:36:01 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 5
+PCBA Wed Oct 14 17:36:01 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 6
+PCBA Wed Oct 14 17:36:02 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 7
+PCBA Wed Oct 14 17:36:02 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 8
+PCBA Wed Oct 14 17:36:02 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 9
+PCBA Wed Oct 14 17:36:03 2015 MultimeterInit:resp :cc:rang:upp?
+ does not contain 4450360, num_of_attempts is 10
+PCBA Wed Oct 14 17:36:03 2015 resp is :cc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:36:03 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:36:04 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:36:04 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:36:15 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:36:15 2015 
+PCBA Wed Oct 14 17:36:16 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 0
+PCBA Wed Oct 14 17:36:16 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 1
+PCBA Wed Oct 14 17:36:17 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 2
+PCBA Wed Oct 14 17:36:17 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 3
+PCBA Wed Oct 14 17:36:18 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 4
+PCBA Wed Oct 14 17:36:18 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 5
+PCBA Wed Oct 14 17:36:19 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 6
+PCBA Wed Oct 14 17:36:19 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 7
+PCBA Wed Oct 14 17:36:20 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 8
+PCBA Wed Oct 14 17:36:20 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 9
+PCBA Wed Oct 14 17:36:21 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 10
+PCBA Wed Oct 14 17:36:21 2015 resp is  num_of_attempts 11
+PCBA Wed Oct 14 17:36:21 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:36:22 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:36:22 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:36:22 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:36:22 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:37:11 2015 
+PCBA Wed Oct 14 17:37:18 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:37:18 2015 
+PCBA Wed Oct 14 17:37:19 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 0
+PCBA Wed Oct 14 17:37:20 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 1
+PCBA Wed Oct 14 17:37:20 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 2
+PCBA Wed Oct 14 17:37:21 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 3
+PCBA Wed Oct 14 17:37:21 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 4
+PCBA Wed Oct 14 17:37:21 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 5
+PCBA Wed Oct 14 17:37:22 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 6
+PCBA Wed Oct 14 17:37:23 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 7
+PCBA Wed Oct 14 17:37:23 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 8
+PCBA Wed Oct 14 17:37:23 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 9
+PCBA Wed Oct 14 17:37:24 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 10
+PCBA Wed Oct 14 17:37:24 2015 resp is :c
+ num_of_attempts 11
+PCBA Wed Oct 14 17:37:24 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:37:30 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:37:30 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:37:42 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:37:42 2015 
+PCBA Wed Oct 14 17:37:44 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 0
+PCBA Wed Oct 14 17:37:44 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 1
+PCBA Wed Oct 14 17:37:45 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 2
+PCBA Wed Oct 14 17:37:45 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 3
+PCBA Wed Oct 14 17:37:45 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 4
+PCBA Wed Oct 14 17:37:46 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 5
+PCBA Wed Oct 14 17:37:46 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 6
+PCBA Wed Oct 14 17:37:47 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 7
+PCBA Wed Oct 14 17:37:47 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 8
+PCBA Wed Oct 14 17:37:48 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 9
+PCBA Wed Oct 14 17:37:48 2015 MultimeterInit:resp :cc:rang:upp?
+ does not contain 4450360, num_of_attempts is 10
+PCBA Wed Oct 14 17:37:48 2015 resp is :cc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:37:48 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:37:50 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:37:50 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:38:00 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:38:00 2015 
+PCBA Wed Oct 14 17:38:02 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 0
+PCBA Wed Oct 14 17:38:02 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 1
+PCBA Wed Oct 14 17:38:02 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 2
+PCBA Wed Oct 14 17:38:03 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 3
+PCBA Wed Oct 14 17:38:03 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 4
+PCBA Wed Oct 14 17:38:04 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 5
+PCBA Wed Oct 14 17:38:04 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 6
+PCBA Wed Oct 14 17:38:05 2015 MultimeterInit:resp :c
+ does not contain 4450360, num_of_attempts is 7
+PCBA Wed Oct 14 17:38:05 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 8
+PCBA Wed Oct 14 17:38:05 2015 MultimeterInit:resp  does not contain 4450360, num_of_attempts is 9
+PCBA Wed Oct 14 17:38:06 2015 MultimeterInit:resp :cc:rang:upp?
+ does not contain 4450360, num_of_attempts is 10
+PCBA Wed Oct 14 17:38:06 2015 resp is :cc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:38:06 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:38:07 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:38:07 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:38:07 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:38:07 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 17:39:20 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:39:20 2015 
+PCBA Wed Oct 14 17:39:22 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 0
+PCBA Wed Oct 14 17:39:22 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 1
+PCBA Wed Oct 14 17:39:23 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 2
+PCBA Wed Oct 14 17:39:23 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 3
+PCBA Wed Oct 14 17:39:23 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 4
+PCBA Wed Oct 14 17:39:24 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 5
+PCBA Wed Oct 14 17:39:24 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 6
+PCBA Wed Oct 14 17:39:25 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 7
+PCBA Wed Oct 14 17:39:25 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 8
+PCBA Wed Oct 14 17:39:26 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 9
+PCBA Wed Oct 14 17:39:26 2015 MultimeterInit:resp :c:curr:dc:rang:upp?
+ does not contain 3400248, num_of_attempts is 10
+PCBA Wed Oct 14 17:39:26 2015 resp is :c:curr:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:39:26 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:39:29 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:39:29 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:39:41 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:39:41 2015 
+PCBA Wed Oct 14 17:39:43 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 0
+PCBA Wed Oct 14 17:39:43 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 1
+PCBA Wed Oct 14 17:39:44 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 2
+PCBA Wed Oct 14 17:39:44 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 3
+PCBA Wed Oct 14 17:39:45 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 4
+PCBA Wed Oct 14 17:39:45 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 5
+PCBA Wed Oct 14 17:39:45 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 6
+PCBA Wed Oct 14 17:39:46 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 7
+PCBA Wed Oct 14 17:39:46 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 8
+PCBA Wed Oct 14 17:39:47 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 9
+PCBA Wed Oct 14 17:39:47 2015 MultimeterInit:resp :curr:dc:rang:upp?
+20
+ does not contain 3400248, num_of_attempts is 10
+PCBA Wed Oct 14 17:39:47 2015 resp is :curr:dc:rang:upp?
+20
+ num_of_attempts 11
+PCBA Wed Oct 14 17:39:47 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:39:48 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:39:48 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:39:59 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 17:39:59 2015 
+PCBA Wed Oct 14 17:40:00 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 0
+PCBA Wed Oct 14 17:40:01 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 1
+PCBA Wed Oct 14 17:40:01 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 2
+PCBA Wed Oct 14 17:40:01 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 3
+PCBA Wed Oct 14 17:40:02 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 4
+PCBA Wed Oct 14 17:40:02 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 5
+PCBA Wed Oct 14 17:40:03 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 6
+PCBA Wed Oct 14 17:40:03 2015 MultimeterInit:resp :c
+ does not contain 3400248, num_of_attempts is 7
+PCBA Wed Oct 14 17:40:04 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 8
+PCBA Wed Oct 14 17:40:04 2015 MultimeterInit:resp  does not contain 3400248, num_of_attempts is 9
+PCBA Wed Oct 14 17:40:04 2015 MultimeterInit:resp :crang:upp?
+ does not contain 3400248, num_of_attempts is 10
+PCBA Wed Oct 14 17:40:04 2015 resp is :crang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 17:40:04 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 17:40:06 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 17:40:06 2015 Fail To Open peripheral
+PCBA Wed Oct 14 17:40:06 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 17:40:06 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:03:00 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:03:00 2015 
+PCBA Wed Oct 14 18:03:01 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 0
+PCBA Wed Oct 14 18:03:01 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 1
+PCBA Wed Oct 14 18:03:02 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 2
+PCBA Wed Oct 14 18:03:02 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 3
+PCBA Wed Oct 14 18:03:03 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 4
+PCBA Wed Oct 14 18:03:03 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 5
+PCBA Wed Oct 14 18:03:03 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 6
+PCBA Wed Oct 14 18:03:04 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 7
+PCBA Wed Oct 14 18:03:05 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 8
+PCBA Wed Oct 14 18:03:05 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 9
+PCBA Wed Oct 14 18:03:05 2015 MultimeterInit:resp :cc:rang:upp?
+ does not contain 2680072, num_of_attempts is 10
+PCBA Wed Oct 14 18:03:05 2015 resp is :cc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 18:03:05 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:03:09 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:03:09 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:03:21 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:03:21 2015 
+PCBA Wed Oct 14 18:03:22 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 0
+PCBA Wed Oct 14 18:03:23 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 1
+PCBA Wed Oct 14 18:03:23 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 2
+PCBA Wed Oct 14 18:03:24 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 3
+PCBA Wed Oct 14 18:03:24 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 4
+PCBA Wed Oct 14 18:03:25 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 5
+PCBA Wed Oct 14 18:03:25 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 6
+PCBA Wed Oct 14 18:03:26 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 7
+PCBA Wed Oct 14 18:03:26 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 8
+PCBA Wed Oct 14 18:03:26 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 9
+PCBA Wed Oct 14 18:03:27 2015 MultimeterInit:resp :cr:dc:rang:upp?
+ does not contain 2680072, num_of_attempts is 10
+PCBA Wed Oct 14 18:03:27 2015 resp is :cr:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 18:03:27 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:03:28 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:03:28 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:03:38 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:03:38 2015 
+PCBA Wed Oct 14 18:03:40 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 0
+PCBA Wed Oct 14 18:03:40 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 1
+PCBA Wed Oct 14 18:03:41 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 2
+PCBA Wed Oct 14 18:03:41 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 3
+PCBA Wed Oct 14 18:03:42 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 4
+PCBA Wed Oct 14 18:03:42 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 5
+PCBA Wed Oct 14 18:03:42 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 6
+PCBA Wed Oct 14 18:03:43 2015 MultimeterInit:resp :c
+ does not contain 2680072, num_of_attempts is 7
+PCBA Wed Oct 14 18:03:43 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 8
+PCBA Wed Oct 14 18:03:44 2015 MultimeterInit:resp  does not contain 2680072, num_of_attempts is 9
+PCBA Wed Oct 14 18:03:44 2015 MultimeterInit:resp :c:dc:rang:upp?
+ does not contain 2680072, num_of_attempts is 10
+PCBA Wed Oct 14 18:03:44 2015 resp is :c:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 18:03:44 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:03:45 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:03:45 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:03:45 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 18:03:45 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:06:33 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:06:33 2015 
+PCBA Wed Oct 14 18:06:37 2015 standby:0.00018280
+PCBA Wed Oct 14 18:06:37 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 18:06:37 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 18:06:48 2015 
+PCBA Wed Oct 14 18:06:55 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:06:55 2015 
+PCBA Wed Oct 14 18:06:59 2015 standby:-0.00001250
+PCBA Wed Oct 14 18:06:59 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 18:07:00 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 18:07:22 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:07:22 2015 
+PCBA Wed Oct 14 18:07:27 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Wed Oct 14 18:07:37 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:07:37 2015 
+PCBA Wed Oct 14 18:07:40 2015 standby:0.00002790
+PCBA Wed Oct 14 18:07:40 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 18:07:40 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 18:13:04 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:13:04 2015 
+PCBA Wed Oct 14 18:13:05 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 0
+PCBA Wed Oct 14 18:13:05 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 1
+PCBA Wed Oct 14 18:13:05 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 2
+PCBA Wed Oct 14 18:13:06 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 3
+PCBA Wed Oct 14 18:13:06 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 4
+PCBA Wed Oct 14 18:13:06 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 5
+PCBA Wed Oct 14 18:13:06 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 6
+PCBA Wed Oct 14 18:13:07 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 7
+PCBA Wed Oct 14 18:13:07 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 8
+PCBA Wed Oct 14 18:13:07 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 9
+PCBA Wed Oct 14 18:13:07 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 10
+PCBA Wed Oct 14 18:13:07 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 18:13:07 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:13:10 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:13:10 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:13:21 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:13:21 2015 
+PCBA Wed Oct 14 18:13:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 0
+PCBA Wed Oct 14 18:13:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 1
+PCBA Wed Oct 14 18:13:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 2
+PCBA Wed Oct 14 18:13:23 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 3
+PCBA Wed Oct 14 18:13:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 4
+PCBA Wed Oct 14 18:13:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 5
+PCBA Wed Oct 14 18:13:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 6
+PCBA Wed Oct 14 18:13:24 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 7
+PCBA Wed Oct 14 18:13:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 8
+PCBA Wed Oct 14 18:13:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 9
+PCBA Wed Oct 14 18:13:25 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 10
+PCBA Wed Oct 14 18:13:25 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 18:13:25 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:13:26 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:13:26 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:13:37 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:13:37 2015 
+PCBA Wed Oct 14 18:13:38 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 0
+PCBA Wed Oct 14 18:13:38 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 1
+PCBA Wed Oct 14 18:13:38 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 2
+PCBA Wed Oct 14 18:13:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 3
+PCBA Wed Oct 14 18:13:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 4
+PCBA Wed Oct 14 18:13:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 5
+PCBA Wed Oct 14 18:13:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 6
+PCBA Wed Oct 14 18:13:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 7
+PCBA Wed Oct 14 18:13:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 8
+PCBA Wed Oct 14 18:13:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 9
+PCBA Wed Oct 14 18:13:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.5
+ does not contain 5825480, num_of_attempts is 10
+PCBA Wed Oct 14 18:13:40 2015 resp is :curr:dc:rang:upp?
+0.5
+ num_of_attempts 11
+PCBA Wed Oct 14 18:13:40 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:13:41 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:13:41 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:13:41 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 18:13:41 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:17:18 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:17:18 2015 
+PCBA Wed Oct 14 18:17:19 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 0
+PCBA Wed Oct 14 18:17:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 1
+PCBA Wed Oct 14 18:17:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 2
+PCBA Wed Oct 14 18:17:20 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 3
+PCBA Wed Oct 14 18:17:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 4
+PCBA Wed Oct 14 18:17:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 5
+PCBA Wed Oct 14 18:17:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 6
+PCBA Wed Oct 14 18:17:21 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 7
+PCBA Wed Oct 14 18:17:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 8
+PCBA Wed Oct 14 18:17:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 9
+PCBA Wed Oct 14 18:17:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 10
+PCBA Wed Oct 14 18:17:22 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 18:17:22 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:17:25 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:17:25 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:17:37 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:17:37 2015 
+PCBA Wed Oct 14 18:17:38 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 0
+PCBA Wed Oct 14 18:17:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 1
+PCBA Wed Oct 14 18:17:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 2
+PCBA Wed Oct 14 18:17:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 3
+PCBA Wed Oct 14 18:17:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 4
+PCBA Wed Oct 14 18:17:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 5
+PCBA Wed Oct 14 18:17:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 6
+PCBA Wed Oct 14 18:17:40 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 7
+PCBA Wed Oct 14 18:17:41 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 8
+PCBA Wed Oct 14 18:17:41 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 9
+PCBA Wed Oct 14 18:17:41 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 10
+PCBA Wed Oct 14 18:17:41 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 18:17:41 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:17:42 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:17:42 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:17:53 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:17:53 2015 
+PCBA Wed Oct 14 18:17:54 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 0
+PCBA Wed Oct 14 18:17:54 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 1
+PCBA Wed Oct 14 18:17:55 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 2
+PCBA Wed Oct 14 18:17:55 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 3
+PCBA Wed Oct 14 18:17:55 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 4
+PCBA Wed Oct 14 18:17:55 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 5
+PCBA Wed Oct 14 18:17:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 6
+PCBA Wed Oct 14 18:17:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 7
+PCBA Wed Oct 14 18:17:56 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 8
+PCBA Wed Oct 14 18:17:57 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 9
+PCBA Wed Oct 14 18:17:57 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877048, num_of_attempts is 10
+PCBA Wed Oct 14 18:17:57 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 18:17:57 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:17:58 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:17:58 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:17:58 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 18:17:58 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:18:05 2015 
+PCBA Wed Oct 14 18:18:12 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:18:12 2015 
+PCBA Wed Oct 14 18:18:14 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 0
+PCBA Wed Oct 14 18:18:14 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 1
+PCBA Wed Oct 14 18:18:14 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 2
+PCBA Wed Oct 14 18:18:15 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 3
+PCBA Wed Oct 14 18:18:15 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 4
+PCBA Wed Oct 14 18:18:15 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 5
+PCBA Wed Oct 14 18:18:15 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 6
+PCBA Wed Oct 14 18:18:16 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 7
+PCBA Wed Oct 14 18:18:16 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 8
+PCBA Wed Oct 14 18:18:16 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 9
+PCBA Wed Oct 14 18:18:16 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 10
+PCBA Wed Oct 14 18:18:16 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 18:18:16 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:18:19 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:18:19 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:18:30 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 18:18:30 2015 
+PCBA Wed Oct 14 18:18:31 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 0
+PCBA Wed Oct 14 18:18:32 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 1
+PCBA Wed Oct 14 18:18:32 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 2
+PCBA Wed Oct 14 18:18:32 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 3
+PCBA Wed Oct 14 18:18:32 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 4
+PCBA Wed Oct 14 18:18:33 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 5
+PCBA Wed Oct 14 18:18:33 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 6
+PCBA Wed Oct 14 18:18:33 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 7
+PCBA Wed Oct 14 18:18:34 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 8
+PCBA Wed Oct 14 18:18:34 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 9
+PCBA Wed Oct 14 18:18:34 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 10
+PCBA Wed Oct 14 18:18:34 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 18:18:34 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:18:35 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:18:35 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:18:46 2015 PCB retry 10) Peak current
+PCBA Wed Oct 14 18:18:46 2015 
+PCBA Wed Oct 14 18:18:47 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 0
+PCBA Wed Oct 14 18:18:48 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 1
+PCBA Wed Oct 14 18:18:48 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 2
+PCBA Wed Oct 14 18:18:48 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 3
+PCBA Wed Oct 14 18:18:48 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 4
+PCBA Wed Oct 14 18:18:49 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 5
+PCBA Wed Oct 14 18:18:49 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 6
+PCBA Wed Oct 14 18:18:49 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 7
+PCBA Wed Oct 14 18:18:49 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 8
+PCBA Wed Oct 14 18:18:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 9
+PCBA Wed Oct 14 18:18:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+0.05
+ does not contain 2877128, num_of_attempts is 10
+PCBA Wed Oct 14 18:18:50 2015 resp is :curr:dc:rang:upp?
+0.05
+ num_of_attempts 11
+PCBA Wed Oct 14 18:18:50 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:18:51 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:18:51 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:18:51 2015 10) Peak current: result is -1
+PCBA Wed Oct 14 18:18:51 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:19:14 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:19:14 2015 
+PCBA Wed Oct 14 18:19:16 2015 Peak:-0.030
+PCBA Wed Oct 14 18:19:17 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 18:19:17 2015 
+PCBA Wed Oct 14 18:19:20 2015 standby:0.00001030
+PCBA Wed Oct 14 18:19:20 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 18:19:20 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 18:21:52 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:21:52 2015 
+PCBA Wed Oct 14 18:21:53 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 0
+PCBA Wed Oct 14 18:21:53 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 1
+PCBA Wed Oct 14 18:21:54 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 2
+PCBA Wed Oct 14 18:21:54 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 3
+PCBA Wed Oct 14 18:21:55 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 4
+PCBA Wed Oct 14 18:21:55 2015 MultimeterInit:resp :c:curr:dc:rang:upp?
+ does not contain 1827400, num_of_attempts is 5
+PCBA Wed Oct 14 18:21:55 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 6
+PCBA Wed Oct 14 18:21:56 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 7
+PCBA Wed Oct 14 18:21:56 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 8
+PCBA Wed Oct 14 18:21:57 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 9
+PCBA Wed Oct 14 18:21:57 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 10
+PCBA Wed Oct 14 18:21:57 2015 resp is :c
+ num_of_attempts 11
+PCBA Wed Oct 14 18:21:57 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:22:01 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:22:01 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:22:13 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:22:13 2015 
+PCBA Wed Oct 14 18:22:14 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 0
+PCBA Wed Oct 14 18:22:15 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 1
+PCBA Wed Oct 14 18:22:15 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 2
+PCBA Wed Oct 14 18:22:16 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 3
+PCBA Wed Oct 14 18:22:16 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 4
+PCBA Wed Oct 14 18:22:16 2015 MultimeterInit:resp :c:dc:rang:upp?
+ does not contain 1827400, num_of_attempts is 5
+PCBA Wed Oct 14 18:22:17 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 6
+PCBA Wed Oct 14 18:22:17 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 7
+PCBA Wed Oct 14 18:22:17 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 8
+PCBA Wed Oct 14 18:22:18 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 9
+PCBA Wed Oct 14 18:22:18 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 10
+PCBA Wed Oct 14 18:22:18 2015 resp is  num_of_attempts 11
+PCBA Wed Oct 14 18:22:18 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:22:20 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:22:20 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:22:30 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:22:30 2015 
+PCBA Wed Oct 14 18:22:32 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 0
+PCBA Wed Oct 14 18:22:32 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 1
+PCBA Wed Oct 14 18:22:32 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 2
+PCBA Wed Oct 14 18:22:33 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 3
+PCBA Wed Oct 14 18:22:34 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 4
+PCBA Wed Oct 14 18:22:34 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 5
+PCBA Wed Oct 14 18:22:35 2015 MultimeterInit:resp :c
+ does not contain 1827400, num_of_attempts is 6
+PCBA Wed Oct 14 18:22:35 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 7
+PCBA Wed Oct 14 18:22:35 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 8
+PCBA Wed Oct 14 18:22:36 2015 MultimeterInit:resp :cr:dc:rang:upp?
+ does not contain 1827400, num_of_attempts is 9
+PCBA Wed Oct 14 18:22:36 2015 MultimeterInit:resp  does not contain 1827400, num_of_attempts is 10
+PCBA Wed Oct 14 18:22:36 2015 resp is  num_of_attempts 11
+PCBA Wed Oct 14 18:22:36 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:22:37 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:22:37 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:22:37 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 18:22:37 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:23:07 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:23:07 2015 
+PCBA Wed Oct 14 18:23:09 2015 Peak:-0.031
+PCBA Wed Oct 14 18:23:10 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 18:23:10 2015 
+PCBA Wed Oct 14 18:23:13 2015 standby:0.00000430
+PCBA Wed Oct 14 18:23:13 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 18:23:13 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 18:30:00 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:30:00 2015 
+PCBA Wed Oct 14 18:30:01 2015 MultimeterInit:resp :curr:dc:rang:upp?
+ does not contain 3859512, num_of_attempts is 0
+PCBA Wed Oct 14 18:30:01 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 1
+PCBA Wed Oct 14 18:30:02 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 2
+PCBA Wed Oct 14 18:30:02 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 3
+PCBA Wed Oct 14 18:30:02 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 4
+PCBA Wed Oct 14 18:30:03 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 5
+PCBA Wed Oct 14 18:30:04 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 6
+PCBA Wed Oct 14 18:30:04 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 7
+PCBA Wed Oct 14 18:30:04 2015 MultimeterInit:resp :crang:upp?
+ does not contain 3859512, num_of_attempts is 8
+PCBA Wed Oct 14 18:30:05 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 9
+PCBA Wed Oct 14 18:30:05 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 10
+PCBA Wed Oct 14 18:30:05 2015 resp is  num_of_attempts 11
+PCBA Wed Oct 14 18:30:05 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:30:08 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:30:08 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:30:21 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:30:21 2015 
+PCBA Wed Oct 14 18:30:22 2015 MultimeterInit:resp :curr:dc:rang:upp?
+ does not contain 3859512, num_of_attempts is 0
+PCBA Wed Oct 14 18:30:22 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 1
+PCBA Wed Oct 14 18:30:23 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 2
+PCBA Wed Oct 14 18:30:23 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 3
+PCBA Wed Oct 14 18:30:23 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 4
+PCBA Wed Oct 14 18:30:24 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 5
+PCBA Wed Oct 14 18:30:25 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 6
+PCBA Wed Oct 14 18:30:25 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 7
+PCBA Wed Oct 14 18:30:26 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 8
+PCBA Wed Oct 14 18:30:26 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 9
+PCBA Wed Oct 14 18:30:26 2015 MultimeterInit:resp :c:dc:rang:upp?
+ does not contain 3859512, num_of_attempts is 10
+PCBA Wed Oct 14 18:30:26 2015 resp is :c:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 18:30:26 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:30:28 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:30:28 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:30:38 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:30:38 2015 
+PCBA Wed Oct 14 18:30:39 2015 MultimeterInit:resp :curr:dc:rang:upp?
+ does not contain 3859512, num_of_attempts is 0
+PCBA Wed Oct 14 18:30:40 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 1
+PCBA Wed Oct 14 18:30:40 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 2
+PCBA Wed Oct 14 18:30:41 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 3
+PCBA Wed Oct 14 18:30:41 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 4
+PCBA Wed Oct 14 18:30:42 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 5
+PCBA Wed Oct 14 18:30:42 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 6
+PCBA Wed Oct 14 18:30:42 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 7
+PCBA Wed Oct 14 18:30:43 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 8
+PCBA Wed Oct 14 18:30:43 2015 MultimeterInit:resp  does not contain 3859512, num_of_attempts is 9
+PCBA Wed Oct 14 18:30:44 2015 MultimeterInit:resp :c
+ does not contain 3859512, num_of_attempts is 10
+PCBA Wed Oct 14 18:30:44 2015 resp is :c
+ num_of_attempts 11
+PCBA Wed Oct 14 18:30:44 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:30:46 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:30:46 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:30:46 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 18:30:46 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 18:31:50 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 18:31:50 2015 
+PCBA Wed Oct 14 18:31:52 2015 MultimeterInit:resp :curr:dc:rang:upp?
+ does not contain 3203848, num_of_attempts is 0
+PCBA Wed Oct 14 18:31:52 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 1
+PCBA Wed Oct 14 18:31:52 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 2
+PCBA Wed Oct 14 18:31:53 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 3
+PCBA Wed Oct 14 18:31:53 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 4
+PCBA Wed Oct 14 18:31:54 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 5
+PCBA Wed Oct 14 18:31:55 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 6
+PCBA Wed Oct 14 18:31:55 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 7
+PCBA Wed Oct 14 18:31:56 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 8
+PCBA Wed Oct 14 18:31:56 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 9
+PCBA Wed Oct 14 18:31:56 2015 MultimeterInit:resp :c:dc:rang:upp?
+ does not contain 3203848, num_of_attempts is 10
+PCBA Wed Oct 14 18:31:56 2015 resp is :c:dc:rang:upp?
+ num_of_attempts 11
+PCBA Wed Oct 14 18:31:56 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:32:19 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:32:19 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:32:31 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:32:31 2015 
+PCBA Wed Oct 14 18:32:33 2015 MultimeterInit:resp :curr:dc:rang:upp?
+ does not contain 3203848, num_of_attempts is 0
+PCBA Wed Oct 14 18:32:33 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 1
+PCBA Wed Oct 14 18:32:34 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 2
+PCBA Wed Oct 14 18:32:34 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 3
+PCBA Wed Oct 14 18:32:34 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 4
+PCBA Wed Oct 14 18:32:35 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 5
+PCBA Wed Oct 14 18:32:35 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 6
+PCBA Wed Oct 14 18:32:36 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 7
+PCBA Wed Oct 14 18:32:36 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 8
+PCBA Wed Oct 14 18:32:37 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 9
+PCBA Wed Oct 14 18:32:37 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 10
+PCBA Wed Oct 14 18:32:37 2015 resp is  num_of_attempts 11
+PCBA Wed Oct 14 18:32:37 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:32:39 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:32:39 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:32:49 2015 PCB retry 11) Standby current
+PCBA Wed Oct 14 18:32:49 2015 
+PCBA Wed Oct 14 18:32:50 2015 MultimeterInit:resp :curr:dc:rang:upp?
+ does not contain 3203848, num_of_attempts is 0
+PCBA Wed Oct 14 18:32:51 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 1
+PCBA Wed Oct 14 18:32:51 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 2
+PCBA Wed Oct 14 18:32:52 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 3
+PCBA Wed Oct 14 18:32:52 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 4
+PCBA Wed Oct 14 18:32:53 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 5
+PCBA Wed Oct 14 18:32:53 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 6
+PCBA Wed Oct 14 18:32:53 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 7
+PCBA Wed Oct 14 18:32:54 2015 MultimeterInit:resp :c?
+ does not contain 3203848, num_of_attempts is 8
+PCBA Wed Oct 14 18:32:54 2015 MultimeterInit:resp  does not contain 3203848, num_of_attempts is 9
+PCBA Wed Oct 14 18:32:55 2015 MultimeterInit:resp :c
+ does not contain 3203848, num_of_attempts is 10
+PCBA Wed Oct 14 18:32:55 2015 resp is :c
+ num_of_attempts 11
+PCBA Wed Oct 14 18:32:55 2015 Unable to communicate with BK PRECISION 4, please re-set it by powering it off and on
+PCBA Wed Oct 14 18:32:56 2015 Fail To Initialize MultiMeter
+PCBA Wed Oct 14 18:32:56 2015 Fail To Open peripheral
+PCBA Wed Oct 14 18:32:56 2015 11) Standby current: result is -1
+PCBA Wed Oct 14 18:32:56 2015 PCB OVERALL RESULT is -1
+

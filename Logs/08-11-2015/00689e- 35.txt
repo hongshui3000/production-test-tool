@@ -1,0 +1,120 @@
+PCBA Sun Nov 08 10:16:03 2015 1) Initialization: result is 1
+PCBA Sun Nov 08 10:16:03 2015 
+PCBA Sun Nov 08 10:16:07 2015 2) OLED: result is 1
+PCBA Sun Nov 08 10:16:07 2015 
+PCBA Sun Nov 08 10:16:07 2015 V18:1.86, V33:3.37, V135:1.41
+PCBA Sun Nov 08 10:16:07 2015 3) Power Supply: result is 1
+PCBA Sun Nov 08 10:16:07 2015 
+PCBA Sun Nov 08 10:16:11 2015 TRIM VAL 16
+PCBA Sun Nov 08 10:16:11 2015 4) Crystal Trim: result is 1
+PCBA Sun Nov 08 10:16:11 2015 
+PCBA Sun Nov 08 10:16:13 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:15 2015 RSSI_SAMPLES:   105  105  105  105  105  105  105  105  105  
+PCBA Sun Nov 08 10:16:16 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:16 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:17 2015 RSSI_SAMPLES:   105  105  105  105  105  105  105  105  105  
+PCBA Sun Nov 08 10:16:17 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:17 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:19 2015 RSSI_SAMPLES:   105  105  105  105  105  105  105  105  105  
+PCBA Sun Nov 08 10:16:19 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:19 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Sun Nov 08 10:16:20 2015 RSSI_SAMPLES:   98  97  98  97  97  97  97  97  97  
+PCBA Sun Nov 08 10:16:20 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Sun Nov 08 10:16:22 2015 RSSI_SAMPLES:   98  98  98  98  98  98  98  98  98  
+PCBA Sun Nov 08 10:16:22 2015 Atn:77,H:13.28,M:16.07,L:-255.00
+PCBA Sun Nov 08 10:16:32 2015 PCB retry 5) RF TX Power
+PCBA Sun Nov 08 10:16:32 2015 
+PCBA Sun Nov 08 10:16:35 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:37 2015 RSSI_SAMPLES:   105  105  105  105  105  105  105  105  105  
+PCBA Sun Nov 08 10:16:37 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:37 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:39 2015 RSSI_SAMPLES:   105  105  105  105  105  105  104  105  105  
+PCBA Sun Nov 08 10:16:39 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:39 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:40 2015 RSSI_SAMPLES:   104  105  105  105  105  105  105  105  105  
+PCBA Sun Nov 08 10:16:40 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:40 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Sun Nov 08 10:16:42 2015 RSSI_SAMPLES:   97  97  97  97  97  97  97  97  97  
+PCBA Sun Nov 08 10:16:42 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Sun Nov 08 10:16:44 2015 RSSI_SAMPLES:   98  98  98  98  98  98  98  98  98  
+PCBA Sun Nov 08 10:16:44 2015 Atn:77,H:13.28,M:16.02,L:-255.00
+PCBA Sun Nov 08 10:16:53 2015 PCB retry 5) RF TX Power
+PCBA Sun Nov 08 10:16:53 2015 
+PCBA Sun Nov 08 10:16:56 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:57 2015 RSSI_SAMPLES:   105  105  105  105  105  105  105  105  105  
+PCBA Sun Nov 08 10:16:58 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:58 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:16:59 2015 RSSI_SAMPLES:   105  104  104  104  104  105  104  104  105  
+PCBA Sun Nov 08 10:16:59 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:16:59 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:17:01 2015 RSSI_SAMPLES:   104  104  104  105  104  105  104  104  104  
+PCBA Sun Nov 08 10:17:01 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:17:01 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Sun Nov 08 10:17:03 2015 RSSI_SAMPLES:   97  97  97  97  97  97  97  97  97  
+PCBA Sun Nov 08 10:17:03 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Sun Nov 08 10:17:04 2015 RSSI_SAMPLES:   98  98  97  98  97  98  98  98  98  
+PCBA Sun Nov 08 10:17:04 2015 Atn:77,H:13.22,M:16.02,L:-255.00
+PCBA Sun Nov 08 10:17:04 2015 5) RF TX Power: result is 0
+PCBA Sun Nov 08 10:17:04 2015 PCB OVERALL RESULT is 0
+
+PCBA Sun Nov 08 10:17:29 2015 
+PCBA Sun Nov 08 10:20:44 2015 1) Initialization: result is 1
+PCBA Sun Nov 08 10:20:44 2015 
+PCBA Sun Nov 08 10:20:48 2015 2) OLED: result is 1
+PCBA Sun Nov 08 10:20:48 2015 
+PCBA Sun Nov 08 10:20:48 2015 V18:1.86, V33:3.37, V135:1.41
+PCBA Sun Nov 08 10:20:48 2015 3) Power Supply: result is 1
+PCBA Sun Nov 08 10:20:48 2015 
+PCBA Sun Nov 08 10:20:52 2015 TRIM VAL 17
+PCBA Sun Nov 08 10:20:52 2015 4) Crystal Trim: result is 1
+PCBA Sun Nov 08 10:20:52 2015 
+PCBA Sun Nov 08 10:20:54 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:20:56 2015 RSSI_SAMPLES:   104  104  103  103  104  103  103  103  104  
+PCBA Sun Nov 08 10:20:57 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:20:57 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:20:58 2015 RSSI_SAMPLES:   104  103  103  103  103  103  103  103  103  
+PCBA Sun Nov 08 10:20:58 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:20:58 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:00 2015 RSSI_SAMPLES:   103  104  103  103  103  103  103  103  103  
+PCBA Sun Nov 08 10:21:00 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:00 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Sun Nov 08 10:21:02 2015 RSSI_SAMPLES:   96  96  96  96  96  96  96  96  96  
+PCBA Sun Nov 08 10:21:02 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Sun Nov 08 10:21:03 2015 RSSI_SAMPLES:   97  97  97  97  97  97  97  97  97  
+PCBA Sun Nov 08 10:21:03 2015 Atn:77,H:13.03,M:15.74,L:-255.00
+PCBA Sun Nov 08 10:21:13 2015 PCB retry 5) RF TX Power
+PCBA Sun Nov 08 10:21:13 2015 
+PCBA Sun Nov 08 10:21:16 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:18 2015 RSSI_SAMPLES:   104  104  103  104  104  104  103  104  104  
+PCBA Sun Nov 08 10:21:18 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:18 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:20 2015 RSSI_SAMPLES:   104  103  103  103  103  103  103  103  103  
+PCBA Sun Nov 08 10:21:20 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:20 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:21 2015 RSSI_SAMPLES:   103  103  103  103  103  103  103  103  103  
+PCBA Sun Nov 08 10:21:21 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:21 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Sun Nov 08 10:21:23 2015 RSSI_SAMPLES:   96  96  96  96  96  96  96  96  96  
+PCBA Sun Nov 08 10:21:23 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Sun Nov 08 10:21:25 2015 RSSI_SAMPLES:   97  97  97  97  97  97  97  97  97  
+PCBA Sun Nov 08 10:21:25 2015 Atn:77,H:13.03,M:15.74,L:-255.00
+PCBA Sun Nov 08 10:21:34 2015 PCB retry 5) RF TX Power
+PCBA Sun Nov 08 10:21:34 2015 
+PCBA Sun Nov 08 10:21:37 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:38 2015 RSSI_SAMPLES:   104  104  104  104  103  103  104  103  103  
+PCBA Sun Nov 08 10:21:39 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:39 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:40 2015 RSSI_SAMPLES:   103  104  103  103  104  103  104  103  103  
+PCBA Sun Nov 08 10:21:40 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:40 2015 RFTransmitPowerTestAtThisFreq 2402:
+PCBA Sun Nov 08 10:21:42 2015 RSSI_SAMPLES:   104  103  103  103  103  103  103  103  103  
+PCBA Sun Nov 08 10:21:42 2015 RFTransmitPowerTestAtThisFreq:Getting RSSI Dbm from reference end point failed
+PCBA Sun Nov 08 10:21:42 2015 RFTransmitPowerTestAtThisFreq 2441:
+PCBA Sun Nov 08 10:21:44 2015 RSSI_SAMPLES:   96  96  96  96  96  96  96  96  96  
+PCBA Sun Nov 08 10:21:44 2015 RFTransmitPowerTestAtThisFreq 2480:
+PCBA Sun Nov 08 10:21:45 2015 RSSI_SAMPLES:   97  97  97  97  97  97  97  97  97  
+PCBA Sun Nov 08 10:21:45 2015 Atn:77,H:13.03,M:15.74,L:-255.00
+PCBA Sun Nov 08 10:21:45 2015 5) RF TX Power: result is 0
+PCBA Sun Nov 08 10:21:45 2015 PCB OVERALL RESULT is 0
+
+PCBA Sun Nov 08 10:22:01 2015 

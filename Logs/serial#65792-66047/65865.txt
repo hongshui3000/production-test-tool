@@ -1,0 +1,71 @@
+PCBA Wed Oct 14 15:34:01 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:34:01 2015 
+PCBA Wed Oct 14 15:34:03 2015 Fail To open PC's microphone as input device
+PCBA Wed Oct 14 15:34:03 2015 RunAudioTestAtThisFreq:Could not open PC's microphone as input device.
+PCBA Wed Oct 14 15:34:03 2015 Sp:1k:-1.#J  2k:-1.#J  3k:-1.#J Other:-1.#J Speaker Test Failed at: 
+PCBA Wed Oct 14 15:34:14 2015 PCB retry 7) Speaker Mic
+PCBA Wed Oct 14 15:34:14 2015 
+PCBA Wed Oct 14 15:34:14 2015 Fail To open PC's microphone as input device
+PCBA Wed Oct 14 15:34:14 2015 RunAudioTestAtThisFreq:Could not open PC's microphone as input device.
+PCBA Wed Oct 14 15:34:14 2015 Sp:1k:-1.#J  2k:-1.#J  3k:-1.#J Other:-1.#J Speaker Test Failed at: 
+PCBA Wed Oct 14 15:34:24 2015 PCB retry 7) Speaker Mic
+PCBA Wed Oct 14 15:34:24 2015 
+PCBA Wed Oct 14 15:34:24 2015 Fail To open PC's microphone as input device
+PCBA Wed Oct 14 15:34:24 2015 RunAudioTestAtThisFreq:Could not open PC's microphone as input device.
+PCBA Wed Oct 14 15:34:24 2015 Sp:1k:-1.#J  2k:-1.#J  3k:-1.#J Other:-1.#J Speaker Test Failed at: 
+PCBA Wed Oct 14 15:34:24 2015 7) Speaker Mic: result is -1
+PCBA Wed Oct 14 15:34:24 2015 PCB OVERALL RESULT is -1
+
+PCBA Wed Oct 14 15:34:29 2015 
+PCBA Wed Oct 14 15:34:36 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:34:36 2015 
+PCBA Wed Oct 14 15:34:39 2015 Peak:0.105
+PCBA Wed Oct 14 15:34:40 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:34:40 2015 
+PCBA Wed Oct 14 15:34:43 2015 standby:-0.0000
+PCBA Wed Oct 14 15:34:43 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:34:43 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:34:52 2015 
+PCBA Wed Oct 14 15:34:58 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:34:58 2015 
+PCBA Wed Oct 14 15:35:01 2015 Peak:-0.039
+PCBA Wed Oct 14 15:35:02 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:35:02 2015 
+PCBA Wed Oct 14 15:35:05 2015 standby:-0.0002
+PCBA Wed Oct 14 15:35:05 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:35:05 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:35:14 2015 
+PCBA Wed Oct 14 15:35:21 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:35:21 2015 
+PCBA Wed Oct 14 15:35:23 2015 Peak:0.039
+PCBA Wed Oct 14 15:35:25 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:35:25 2015 
+PCBA Wed Oct 14 15:35:28 2015 standby:-0.0001
+PCBA Wed Oct 14 15:35:28 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:35:28 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 15:35:33 2015 
+PCBA Wed Oct 14 15:35:39 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 15:35:39 2015 
+PCBA Wed Oct 14 15:35:42 2015 Peak:0.039
+PCBA Wed Oct 14 15:35:43 2015 10) Peak current: result is 1
+PCBA Wed Oct 14 15:35:43 2015 
+PCBA Wed Oct 14 15:35:46 2015 standby:-0.0001
+PCBA Wed Oct 14 15:35:46 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 15:35:46 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 17:41:03 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:41:03 2015 
+PCBA Wed Oct 14 17:41:07 2015 standby:0.0002
+PCBA Wed Oct 14 17:41:07 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 17:41:08 2015 PCB OVERALL RESULT is 6
+
+PCBA Wed Oct 14 17:41:14 2015 
+PCBA Wed Oct 14 17:41:21 2015 1) Initialization: result is 1
+PCBA Wed Oct 14 17:41:21 2015 
+PCBA Wed Oct 14 17:41:25 2015 standby:0.0002
+PCBA Wed Oct 14 17:41:25 2015 11) Standby current: result is 1
+PCBA Wed Oct 14 17:41:25 2015 PCB OVERALL RESULT is 6
+
