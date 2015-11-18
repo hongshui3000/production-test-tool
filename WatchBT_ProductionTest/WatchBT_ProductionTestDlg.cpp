@@ -1300,7 +1300,7 @@ int ClearGPIOCMDS()
 		{
             break;
 		}
-	} while ( (completedbytes < expected_length_read) && ((n++)<2));
+	} while ( ((unsigned long)completedbytes < expected_length_read) && ((n++)<2));
 
 	if (completedbytes != expected_length_read) 
 	{	
@@ -1377,7 +1377,7 @@ int ChangeGPIOState(int gpio_num, int state)
 		{
             break;
 		}
-	} while ( (completedbytes < expected_length_read) && ((n++)<2));
+	} while ( ((unsigned long)completedbytes < expected_length_read) && ((n++)<2));
 
 	if (completedbytes != expected_length_read) 
 	{
@@ -1472,7 +1472,7 @@ int ReadGPIOValue(int gpio_num, double &adcvalue, int io_type)
 		{
             break;
 		}
-	} while ( (completedbytes < expected_length_read) && ((n++)<5));
+	} while ( ((unsigned long)completedbytes < expected_length_read) && ((n++)<5));
 
 	if (completedbytes != expected_length_read) 
 	{	
@@ -4217,7 +4217,7 @@ int GetBlueToothInputDevIndex()
 		strncpy(device_name, Pa_GetDeviceInfo(device_index)->name, sizeof(device_name)-1);
 
 		memset(device_name_lower_case,0x0,sizeof(device_name_lower_case)); 
-		for (int i=0; i<strlen(device_name); i++)
+		for (int i=0; i < (int)strlen(device_name); i++)
 		{
 			device_name_lower_case[i] = tolower(device_name[i]);
 		}
@@ -4326,7 +4326,7 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
 	long framesLeft = ptr_data->maxFrameIndex - ptr_data->frameIndex;
 	
 	if (framesLeft >= 0)
-	{	if( framesLeft < framesPerBuffer )
+	{	if( (unsigned long)framesLeft < framesPerBuffer )
 		{
 			framesToCalc = framesLeft;
 			finished = paComplete;
@@ -4337,7 +4337,7 @@ static int patestCallback( const void *inputBuffer, void *outputBuffer,
 			finished = paContinue;
 		}
 
-		for( i=0; i<framesToCalc; i++ )
+		for( i=0; i< (unsigned long)framesToCalc; i++ )
 		{
 			*wptr++ = *rptr++;  /* left */
 		}
@@ -4526,7 +4526,7 @@ int run_fft(int SIZE, int STARTING_SAMPLE, int freq_in_k, int audio_test_type, d
 
 	FILE  *fid;
 	
-	itoa(freq_in_k, FileNameIndexStr, 10);
+	_itoa(freq_in_k, FileNameIndexStr, 10);
 	FileNameIndexStr[1] = '\0';
 
 	memset(FileName,0x0,sizeof(FileName));
@@ -4625,7 +4625,7 @@ int RunAudioTestAtThisFreq(int freq_in_k, int audio_test_type, double &peak_valu
 	CString heading;
 	int	bluetooth_device_microphone_test_flag=0; 
 
-	itoa(freq_in_k, FileNameIndexStr, 10);
+	_itoa(freq_in_k, FileNameIndexStr, 10);
 	FileNameIndexStr[1] = '\0';
 
 if ((audio_test_type != PCB_SPEAKER_TEST) && (audio_test_type != BLUETOOTH_DEVICE_SPEAKER_TEST))
@@ -7281,7 +7281,7 @@ int ReadConfigFile(char *file_name)
 
 						for (int licenseKeySegmentIndex=0; licenseKeySegmentIndex<LICENSE_KEY_LENGTH; licenseKeySegmentIndex++)
 						{
-								licenseKeys[num_of_licenseKeys].licenseKey[licenseKeySegmentIndex] = temp_license_keys[licenseKeySegmentIndex];
+								licenseKeys[num_of_licenseKeys].licenseKey[licenseKeySegmentIndex] = (uint16)temp_license_keys[licenseKeySegmentIndex];
 						}
 						num_of_licenseKeys++;
 				}
@@ -7515,7 +7515,7 @@ int CheckBluetoothAddrNotUsed(unsigned long addr)
 	return (!found);*/
 
 	if (assignedBluetoothAddrList.size() > 0)
-	{	if (addr > assignedBluetoothAddrList[assignedBluetoothAddrList.size()-1])
+	{	if (addr > (unsigned long)assignedBluetoothAddrList[assignedBluetoothAddrList.size()-1])
 			return 1;
 		else
 			return 0;
@@ -8091,6 +8091,7 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest()
 	//pcb test routines
 
 	MultimeterInitFlag = 0;
+
 	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES; i++)
 	{	
 		GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Not started"); 
@@ -9019,7 +9020,7 @@ TESTENGINE_API(int32) sppsRead(uint32 handle, uint16 psKey, uint16 store,
 		}
 		while (n<3);
 
-		for (i=0; i<arrayLen/sizeof(uint16); i++)
+		for (i=0; (uint16)i < arrayLen/sizeof(uint16); i++)
 		{	
 			if ((psKeyDataArray[0][i] == psKeyDataArray[1][i]) && (psKeyDataArray[1][i] == psKeyDataArray[2][i]))
 			{
@@ -9030,7 +9031,7 @@ TESTENGINE_API(int32) sppsRead(uint32 handle, uint16 psKey, uint16 store,
 			}
 		}
 
-		if (i >= arrayLen/sizeof(uint16))
+		if ((uint16)i >= arrayLen/sizeof(uint16))
 		{	
 			data_consistent_flag = 1;
 		}
@@ -9039,7 +9040,7 @@ TESTENGINE_API(int32) sppsRead(uint32 handle, uint16 psKey, uint16 store,
 
 	if (data_consistent_flag == 1)
 	{
-		for (i=0; i<arrayLen/sizeof(uint16); i++)
+		for (i=0; (uint16)i < arrayLen/sizeof(uint16); i++)
 		{
 			data[i] = psKeyDataArray[0][i];
 		}
@@ -9075,7 +9076,7 @@ int ReadModelSelectionFile()
 	if (modelSelectionFile.is_open())
 	{	
 		modelSelectionFile >> temp_model_selection;
-		if ((temp_model_selection >= 0) && (temp_model_selection < NUM_OF_MODELS))
+		if ((temp_model_selection >= 0) && ((uint16)temp_model_selection < NUM_OF_MODELS))
 		{
 			model_selection = temp_model_selection;
 		}
