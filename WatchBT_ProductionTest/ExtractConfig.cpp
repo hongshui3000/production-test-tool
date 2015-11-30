@@ -1,6 +1,6 @@
 using System;
 #include "stdafx.h"
-
+#include "ExportFunction.h"
 #include "ExtractConfig.h"
 
 int MatchNameWithConfigFile(char* compare, string file_name){
@@ -9,8 +9,7 @@ int MatchNameWithConfigFile(char* compare, string file_name){
 
 	ifstream ConfigFile (file_name.c_str());
 	if (!ConfigFile.fail()){
-		OutputDebugString(file_name.c_str());
-		OutputDebugString(" Loading... \n");
+		WriteLogFile("%s Loading...", file_name.c_str());
 		if (ConfigFile.is_open())
 		{	
 			while ( !ConfigFile.eof())
@@ -18,16 +17,15 @@ int MatchNameWithConfigFile(char* compare, string file_name){
 				ConfigFile >> config_name;
 				OutputDebugString(config_name.c_str());
 				if (compare == config_name){
-					OutputDebugString(" Matched\n");
+					WriteLogFile("%s Matched\n", config_name);
 					return 1;
 				}
 			}
 		}	
-		OutputDebugString(" No Matched\n");
+		WriteLogFile("%s is not matched\n", config_name);
 		return 0;
 	} else {
-		OutputDebugString(file_name.c_str()); 
-		OutputDebugString(" is not found!\n");
+		WriteLogFile("%s is not found!", file_name.c_str()); 
 		return 0;
 	}
 	return 0;

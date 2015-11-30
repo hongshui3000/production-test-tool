@@ -444,3 +444,4 @@ public:
 	afx_msg void OnCbnSelchangeComboTestTypeSelection();
 	CString fwVer;
 };
+

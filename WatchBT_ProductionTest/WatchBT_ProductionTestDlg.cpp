@@ -5,6 +5,7 @@ using System;
 #include "stdafx.h"
 #include "WatchBT_ProductionTest.h"
 #include "WatchBT_ProductionTestDlg.h"
+#include "ExportFunction.h"
 #include "TestEngine.h"
 #include "portaudio.h"
 #include "usb_hid_reports.h"
@@ -34,6 +35,7 @@ using namespace System::Globalization;
 //}
 
 #include <math.h>
+#pragma warning(disable: 4793) // methods are compiled as native (clr warning)
 
 extern "C" {
 #include "hidsdi.h"
@@ -67,7 +69,6 @@ unsigned long getAvailBluetoothAddr(int &success_flag);
 void AddBlueToothAddrToAssignedBlueToothAddrsFile(unsigned long addr);
 int WriteAssignedBlueToothAddrsFile();
 int OpenLogFile(string name);
-void WriteLogFile(const char * format, ... );
 void WriteMainLogFile(const char * format, ...);
 void CloseMainLogFile();
 int checkRefEndPointConnection(int connection_type);
@@ -5327,6 +5328,7 @@ int ChangeCurrent(char* tmp){
 	memset(expected_resp,0x0,sizeof(expected_resp));
 	//the 'expected resp' from BK Precision is the same as the command sent minus the '\n' character
 	strncpy(expected_resp, command, strlen(command)-1); 
+	return 0;
 }
 
 int /*PCBTEST_*/MeasurePeakCurrent()
@@ -6678,6 +6680,7 @@ static uint8 Write_Serial_Number(uint16 *bAddress) {
 		WriteMainLogFile("WriteSerialNumber Fail");
 		return 0;
 	}
+	return 0;
 }
 
 uint8 pairingInfoWrite(uint16 *data, uint16 length)
