@@ -1,0 +1,28 @@
+PCBA Tue Dec 01 18:03:41 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:03:41 2015 
+PCBA Tue Dec 01 18:03:41 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:03:41 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:03:44 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:03:44 2015 (null) Matched
+
+PCBA Tue Dec 01 18:04:22 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:04:22 2015 
+PCBA Tue Dec 01 18:04:22 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:04:22 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:04:26 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:04:26 2015 (null) Matched
+
+PCBA Tue Dec 01 18:04:52 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:04:52 2015 
+PCBA Tue Dec 01 18:04:52 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:04:52 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:04:55 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:04:55 2015 MVS01-V0 Matched
+
+PCBA Tue Dec 01 18:15:22 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:15:22 2015 
+PCBA Tue Dec 01 18:15:22 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:15:22 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:15:27 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:15:27 2015 MVS01-V0 Matched
+

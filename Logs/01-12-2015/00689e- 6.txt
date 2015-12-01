@@ -1,0 +1,60 @@
+PCBA Tue Dec 01 18:03:44 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:03:44 2015 
+PCBA Tue Dec 01 18:03:44 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:03:44 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:03:44 2015 2) OLED: result is 0
+PCBA Tue Dec 01 18:03:44 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:03:44 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:03:44 2015 Unable to turn VBAT IO PIN  output off
+PCBA Tue Dec 01 18:03:44 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:03:44 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:03:44 2015 Unable to turn VCHARGE IO PIN  output off
+PCBA Tue Dec 01 18:03:44 2015 PCB OVERALL RESULT is 0
+
+PCBA Tue Dec 01 18:04:26 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:04:26 2015 
+PCBA Tue Dec 01 18:04:26 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:04:26 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:04:26 2015 2) OLED: result is 0
+PCBA Tue Dec 01 18:04:26 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:04:26 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:04:26 2015 Unable to turn VBAT IO PIN  output off
+PCBA Tue Dec 01 18:04:26 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:04:26 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:04:26 2015 Unable to turn VCHARGE IO PIN  output off
+PCBA Tue Dec 01 18:04:26 2015 PCB OVERALL RESULT is 0
+
+PCBA Tue Dec 01 18:04:55 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:04:55 2015 
+PCBA Tue Dec 01 18:04:55 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:04:55 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:04:55 2015 2) OLED: result is 0
+PCBA Tue Dec 01 18:04:55 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:04:55 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:04:55 2015 Unable to turn VBAT IO PIN  output off
+PCBA Tue Dec 01 18:04:55 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:04:55 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:04:55 2015 Unable to turn VCHARGE IO PIN  output off
+PCBA Tue Dec 01 18:04:55 2015 PCB OVERALL RESULT is 0
+
+PCBA Tue Dec 01 18:04:58 2015 
+PCBA Tue Dec 01 18:04:58 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:04:58 2015 MVS01-V0 Matched
+
+PCBA Tue Dec 01 18:15:27 2015 PCB retry 2) OLED
+PCBA Tue Dec 01 18:15:27 2015 
+PCBA Tue Dec 01 18:15:27 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:15:27 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:15:27 2015 2) OLED: result is 0
+PCBA Tue Dec 01 18:15:27 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:15:27 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:15:27 2015 Unable to turn VBAT IO PIN  output off
+PCBA Tue Dec 01 18:15:27 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Tue Dec 01 18:15:27 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Tue Dec 01 18:15:27 2015 Unable to turn VCHARGE IO PIN  output off
+PCBA Tue Dec 01 18:15:27 2015 PCB OVERALL RESULT is 0
+
+PCBA Tue Dec 01 18:16:23 2015 
+PCBA Tue Dec 01 18:16:23 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:16:23 2015 MVS01-V0 Matched
+

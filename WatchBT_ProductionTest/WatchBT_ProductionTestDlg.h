@@ -3,6 +3,16 @@
 
 #pragma once
 
+//debug mode without Endpoint
+#define DESIGN_MODE 
+#ifdef DESIGN_MODE
+	#undef PERIPHERAL_CONNECTION 
+	#undef ENPOINT_FUNCTIONALITY 
+#else
+	#define PERIPHERAL_CONNECTION 
+	#define ENPOINT_FUNCTIONALITY 
+#endif
+
 #define OLED_TEST //display check by setting every pixel on 
 #define ACCELEROMETER_TEST // check if accel is working fine by reading device id
 #define FLASH_CHECK  //ext flash testing

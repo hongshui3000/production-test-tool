@@ -1,0 +1,40 @@
+PCBA Tue Dec 01 18:03:31 2015 1) Initialization: result is 1
+PCBA Tue Dec 01 18:03:31 2015 
+PCBA Tue Dec 01 18:03:31 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:03:31 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:03:31 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Tue Dec 01 18:03:34 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:03:34 2015 (null) Matched
+
+PCBA Tue Dec 01 18:04:10 2015 1) Initialization: result is 1
+PCBA Tue Dec 01 18:04:10 2015 
+PCBA Tue Dec 01 18:04:10 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:04:10 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:04:10 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Tue Dec 01 18:04:13 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:04:13 2015 (null) Matched
+
+PCBA Tue Dec 01 18:04:41 2015 1) Initialization: result is 1
+PCBA Tue Dec 01 18:04:41 2015 
+PCBA Tue Dec 01 18:04:41 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:04:41 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:04:41 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Tue Dec 01 18:04:44 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:04:44 2015 MVS01-V0 Matched
+
+PCBA Tue Dec 01 18:15:07 2015 1) Initialization: result is 1
+PCBA Tue Dec 01 18:15:07 2015 
+PCBA Tue Dec 01 18:15:07 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:15:07 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:15:07 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Tue Dec 01 18:15:11 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:15:11 2015 MVS01-V0 Matched
+
+PCBA Tue Dec 01 18:17:08 2015 1) Initialization: result is 1
+PCBA Tue Dec 01 18:17:08 2015 
+PCBA Tue Dec 01 18:17:08 2015 spMapPio32 Fail
+PCBA Tue Dec 01 18:17:08 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Tue Dec 01 18:17:08 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Tue Dec 01 18:17:12 2015 ..\config\version_control.txt Loading...
+PCBA Tue Dec 01 18:17:12 2015 MVS01-V0 Matched
+

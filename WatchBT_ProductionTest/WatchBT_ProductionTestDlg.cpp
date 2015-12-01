@@ -252,7 +252,7 @@ char *configFileNames[2][NUM_OF_MODELS] = {
 #endif
 
 #if 1 /* Seavia 20150903, Add Project Information, store in PSKEY_USR34 */
-CString projectInformationStr;
+CString projectInformationStr = "PRJ_INFO: ";;
 int selectedModel;
 char *projectModelInfo[MODEL_INFO_QTY] = {
 		"MVS01-", 
@@ -365,6 +365,8 @@ void SetStatus (const char * format, ... )
 
 int PeriphiralOpen(int perphiralList, int connection_type)
 {
+#ifdef PERIPHERAL_CONNECTION
+
 	if(perphiralList & PERIPHIRAL_ID_GPIOBOARD)
 	{
 #ifndef NO_GPIO_BOARD 
@@ -419,6 +421,7 @@ int PeriphiralOpen(int perphiralList, int connection_type)
 			return 0;
 		}
 	}
+#endif
     return 1;
 }
 // CAboutDlg dialog used for App About
@@ -2136,12 +2139,8 @@ int DetermineCsrDeviceType(uint32 handle)
 
 int ReadDutBluetoothAddr(char *addr)
 {
+#ifndef DESIGN_MODE
 	int32	iSuccess;
-#if 1 /* Seavia 20150810 , fix unreferenced local variable warning*/
-
-#else
-	uint16	data[1], len;
-#endif
 	int		n=0;
 	uint16  nap;
 	uint8   uap;
@@ -2163,6 +2162,7 @@ int ReadDutBluetoothAddr(char *addr)
 	}
 
 	sprintf(addr, "%04x%02x%06x", nap, uap, lap);
+#endif
 	return 1;
 }
 
@@ -2175,6 +2175,7 @@ int VerifyDutHandle(uint32 handle)
 
 int ReadPskey(uint16 size, uint16 psKey, uint16 *data)
 {
+#ifndef DESIGN_MODE
 	int32	iSuccess;
 	int		n=0;
 	uint16  length_read;
@@ -2208,12 +2209,12 @@ int ReadPskey(uint16 size, uint16 psKey, uint16 *data)
 		if (iSuccess == TE_OK)
 			return 1;
 	}
-
-	return 0;
+#endif 
+	return 1;
 }
 
-int SetPskey(uint16 size, uint16 psKey, uint16 *data)
-{
+int SetPskey(uint16 size, uint16 psKey, uint16 *data){
+#ifndef DESIGN_MODE
 	int32	iSuccess;
 	int		n=0;
 	
@@ -2235,7 +2236,7 @@ int SetPskey(uint16 size, uint16 psKey, uint16 *data)
 	{
 		return 0;
 	}
-
+#endif 
 	return 1;
 }
 
@@ -3075,18 +3076,8 @@ int PRODUCT_Initialization()
 
 int PCBTEST_Initialization()
 {
-	//int result=0;
+#ifndef DESIGN_MODE
 	int vcharge_state, vbat_state;
-	uint32 currentSerialNumber = 0;
-#if 1 /* Seavia 20150810 , fix unreferenced local variable warning*/
-	uint16 psKey[2];
-#else
-	uint16 psKey[2], pskey_length_read;
-#endif
-
-	/*uint16 nap=0;
-	uint8  uap=0;
-	uint32 lap=0;*/
 
 	if(PeriphiralOpen(PERIPHIRAL_ID_GPIOBOARD, SPI_CONNECTION))
 	{
@@ -3126,140 +3117,117 @@ int PCBTEST_Initialization()
 		SetStatus("Fail To Open GPIO");
 		return 0;
 	}
-
+	
 	if(PeriphiralOpen(PERIPHIRAL_ID_DUT, SPI_CONNECTION))
 	{
-		/*if (VerifyDutBluetoothAddr(dutHandle,nap,uap,lap) == 1)
-		{
-			//SetStatus("HURRAY!!");
-			
-			SetStatus("VCHARGE:%d, VBAT:%d BlueAddr:nap:%x uap:%x lap:%x",vcharge_state,vbat_state,nap,uap,lap );
-			return 1;
-		}
-		else
-		{
-			//SetStatus("VCHARGE:%d, VBAT:%d Verify BlueToothAddr failed" ,vcharge_state,vbat_state);
-			//return 0;
-		}*/
-
 		if (automaticPairingModeDisable(SPI_CONNECTION) != 1)
 		{
 			SetStatus("automaticPairingModeDisable FAIL");
 			return 0;
 		}
-
-#if 1 /*Seavia 20150903, add Project information, store in PSKEY_USER34 */
-		uint16 prjInfo[2];
-		uint16 model;
-		uint16 FirmwareVersion;
-		CString ModelFWInformation;
-		projectInformationStr = "PRJ_INFO: ";
-		if (ReadPskey(2, PSKEY_USER34, prjInfo) == 1)
-		{
-			model = prjInfo[0];
-			FirmwareVersion = prjInfo[1];
-			
-			ModelFWInformation.Format("%sV%d", projectModelInfo[model], FirmwareVersion);
-			projectInformationStr.Format("PRJ_INFO: %s", ModelFWInformation);
-			//projectInformationStr.Format("PRJ_INFO: %s V%d", projectModelInfo[model], FirmwareVersion);
-			WriteMainLogFile ("PCBTEST_Initialization : ReadPsKey(PSKEY_USER34) Succeed. model:%d,%d FW:%d,%d, selectedModel = %d", model, prjInfo[0], FirmwareVersion, prjInfo[1], selectedModel);
-			if ( 0 == MatchNameWithConfigFile(CT2A((LPCSTR)ModelFWInformation), VERSION_CONFIG_FILE_PATH)){
-				WriteLogFile("Wrong Model Version");
-				SetStatus("Wrong Model Version");
-				return 0;
-			}			
-			
-			/*
-			if (selectedModel != model)
-			{
-				WriteMainLogFile ("PCBTEST_Initialization : model:%d, selectedModel:%d doesn match", model, selectedModel);
-				return 0;
-			}*/
-		}
-		else
-		{
-			projectInformationStr.Format("PRJ_INFO: read pskey_user34 fail");
-			WriteMainLogFile ("PCBTEST_Initialization : ReadPsKey(PSKEY_USER34) FAIL.");
-			//GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
-		}
-#endif
-
-		if (ReadPskey(2, PSKEY_USER40, psKey) == 1)
-		{
-			currentSerialNumber = psKey[0] << 16;
-			currentSerialNumber += psKey[1];
-		}
-
-		//only write the serial number to PSKEY_USER40 if there is no serial number stored 
-		if (currentSerialNumber <= 0)
-		{	
-			if ((availSerialNumber <= 0) || 
-				!((availSerialNumber >= startingAvailSerialNumber) && (availSerialNumber <= endingAvailSerialNumber))
-			   )
-			{	
-					
-					//label_text_color = RED;
-					//GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("FAILURE"); 
-					//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
-					//GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText("no more serial number avail."); 
-					//GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
-					//break;
-					serialNumber = 0;
-					SetStatus("Out Of Serial Number");
-					return 0;
-			}
-			else
-			{
-				psKey[0] = (availSerialNumber >> 16)&0xFFFF;
-				psKey[1] = availSerialNumber&0xFFFF;
-		 
-				if (SetPskey(2, PSKEY_USER40, psKey))
-				{	
-					serialNumber = availSerialNumber;
-					availSerialNumber++;
-					WriteSerialNumberFile(ASSIGNED_SERIAL_NUMBERS_FILENAME);
-					_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
-					updateSerialNumberTextBox = 1;
-				}
-
-				else
-				{
-					updateSerialNumberTextBox = 2; 
-					serialNumber = 0;
-					SetStatus("Serial Number Write Fail");
-					return 0;
-						//GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
-				}
-			}
-			
-		}
-		else
-		{	
-			serialNumber = currentSerialNumber;
-			_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
-			updateSerialNumberTextBox = 3;
-		
-		}
-		
-		if (ReadDutBluetoothAddr(currentBluetoothAddressString))
-		{
-			currentBluetoothAddrDisplayStr = "CURR_BT_ADDR: 0x";
-			currentBluetoothAddrDisplayStr += /*currentBluetoothAddrStr*/currentBluetoothAddressString;
-		}
-		else
-		{	
-			currentBluetoothAddrDisplayStr = "CURR_BT_ADDR: Unknown";
-			SetStatus("Fail To Read BT_ADDR DUT");
-			return 0;
-		}
-		
-		return 1;
 	}
 	else
 	{
 		SetStatus("Fail To Open DUT");
 		return 0;
 	}
+#endif
+#if 1 /*Seavia 20150903, add Project information, store in PSKEY_USER34 */
+	uint16 psKey[2]={0};
+	uint16 prjInfo[2]={0};
+
+	uint16 model = 0;
+	uint16 FirmwareVersion = 0;
+	uint32 currentSerialNumber = 0;
+	CString ModelFWInformation;
+	projectInformationStr = "PRJ_INFO: ";
+
+	if (ReadPskey(2, PSKEY_USER34, prjInfo) == 1){
+		
+		model = prjInfo[0];
+		FirmwareVersion = prjInfo[1];
+
+		ModelFWInformation.Format("%sV%d", projectModelInfo[model], FirmwareVersion);
+		projectInformationStr.Format("PRJ_INFO: %s", ModelFWInformation);
+
+		if ( 1 == MatchNameWithConfigFile(CT2A((LPCSTR)ModelFWInformation), VERSION_CONFIG_FILE_PATH)){
+			WriteMainLogFile ("%s : ReadPsKey Succeed. model:%d,%d FW:%d,%d, selectedModel = %d",
+				__FUNCTION__, model, prjInfo[0], FirmwareVersion, prjInfo[1], selectedModel);
+		}else{
+			WriteLogFile("%s is wrong fw version", ModelFWInformation);
+			SetStatus("%s is wrong fw version", ModelFWInformation);
+			return 0;
+		}
+	}
+	else{
+		SetStatus("Read pskey_user34 fail");
+		WriteMainLogFile ("PCBTEST_Initialization : ReadPsKey(PSKEY_USER34) FAIL.");
+		//GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
+	}
+#endif
+
+	if (ReadPskey(2, PSKEY_USER40, psKey) == 1)
+	{
+		currentSerialNumber = psKey[0] << 16;
+		currentSerialNumber += psKey[1];
+	}
+
+	//only write the serial number to PSKEY_USER40 if there is no serial number stored 
+	if (currentSerialNumber <= 0)
+	{	
+		if ( (availSerialNumber <= 0) || 
+			!((availSerialNumber >= startingAvailSerialNumber) && (availSerialNumber <= endingAvailSerialNumber))
+			){	
+				//serialNumber = 0;
+				SetStatus("Out Of Serial Number");
+				return 0;
+		}
+		else
+		{
+			psKey[0] = (availSerialNumber >> 16)&0xFFFF;
+			psKey[1] = availSerialNumber&0xFFFF;
+	 
+			if (SetPskey(2, PSKEY_USER40, psKey))
+			{	
+				serialNumber = availSerialNumber;
+				availSerialNumber++;
+				WriteSerialNumberFile(ASSIGNED_SERIAL_NUMBERS_FILENAME);
+				_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
+				updateSerialNumberTextBox = 1;
+			}
+
+			else
+			{
+				updateSerialNumberTextBox = 2; 
+				serialNumber = 0;
+				SetStatus("Serial Number Write Fail");
+				return 0;
+					//GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
+			}
+		}
+		
+	}
+	else
+	{	
+		serialNumber = currentSerialNumber;
+		_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
+		updateSerialNumberTextBox = 3;
+	
+	}
+	
+	if (ReadDutBluetoothAddr(currentBluetoothAddressString))
+	{
+		currentBluetoothAddrDisplayStr = "CURR_BT_ADDR: 0x";
+		currentBluetoothAddrDisplayStr += /*currentBluetoothAddrStr*/currentBluetoothAddressString;
+	}
+	else
+	{	
+		currentBluetoothAddrDisplayStr = "CURR_BT_ADDR: Unknown";
+		SetStatus("Fail To Read BT_ADDR DUT");
+		return 0;
+	}
+	
+	return 1;
 }
 
 /*
@@ -8057,15 +8025,13 @@ function_ptr pcb_tests[NUM_OF_PCB_TEST_ROUTINES] = {	&PCBTEST_Initialization,
 														//&PCBTEST_spiPortLock
 												   }; 
 
-void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest()
-{	CString	strMessage, currentBluetoothAddrStr, logfileName, resultstring;
+void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){	
+	
+	CString	strMessage, currentBluetoothAddrStr, logfileName, resultstring;
 	int  pcb_tests_overall_result=SUCCESS;
 	unsigned int Begin = 0, Last = 0;
 	unsigned int Now =0;
-#if 0 /* Seavia 20150810 , fix unreferenced local variable warning*/
-	uint32 nap, lap, uap;
-	uint16 psKey[2], pskey_length_read;
-#endif
+
 	int i=0, success_flag=0;
 	int pcb_tests_not_complete = 0;
 	int abort = 0;
@@ -8078,11 +8044,9 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest()
 	// TODO: Add your control notification handler code here
 	//OnOK();
 	Begin = Last = GetTickCount()/1000;
-
-	//pcb test routines
-
 	MultimeterInitFlag = 0;
 
+	//Routine initialize status 
 	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES; i++)
 	{	
 		GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Not started"); 
@@ -8097,41 +8061,26 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest()
 	label_text_color = GREY;
 	label_text_id = IDC_STATIC_PCB_TEST_RESULT;
 	GetDlgItem(IDC_STATIC_PCB_TEST_RESULT)->SetWindowText(" ");
-
-	
-
-	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES/*-1*/; i++)
-	{
+	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES/*-1*/; i++){
 		if (abort)
 			break;
 
-		if (IsDlgButtonChecked(pcbTestCheckBoxesIDs[i]) || (i==0)) 
-		{
-			
-			SetStatus("");
-			if (pcb_tests[i] != NULL)
-			{	
-#if 1 /*Seavia 20150903 add project information */
-				//GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
-#endif
+		if (IsDlgButtonChecked(pcbTestCheckBoxesIDs[i]) || (i==0)){
+			int retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
+			if (pcb_tests[i] != NULL){	
+				SetStatus("");
 				GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Progress"); 
-				//InvalidateRect(NULL, false);
 #ifndef test_mode
-#if 1 /* Seavia 20150910, fix warning, conversion from 'double' to 'int', possible losse of data */
-				int retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
-#else
-				int retries = GetConfigurationValue(PRODUCT_RX_RETRY_STR);
-#endif
-				//Sleep(100);
+				//int retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
 				pcb_tests_results[i] = pcb_tests[i]();
-				if (pcb_tests_results[i] != SUCCESS)
-				{
+				if (pcb_tests_results[i] != SUCCESS){
 					if (i == 0)
 					{
 						//retry init once
 						SetStatus("");
 						label_text_color = GREY;
 						GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("RETRY");
+						GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
 						CsrDevicesClose();
 						CloseUSBHandles(UsbGpioModuleConnectionHd);
 						CloseUSBHandles(UsbMultimeterModuleConnectionHd);

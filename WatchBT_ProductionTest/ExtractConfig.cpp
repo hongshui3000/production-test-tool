@@ -10,6 +10,7 @@ int MatchNameWithConfigFile(char* compare, string file_name){
 	ifstream ConfigFile (file_name.c_str());
 	if (!ConfigFile.fail()){
 		WriteLogFile("%s Loading...", file_name.c_str());
+		//OutputDebugString("Loding\n");
 		if (ConfigFile.is_open())
 		{	
 			while ( !ConfigFile.eof())
@@ -23,9 +24,11 @@ int MatchNameWithConfigFile(char* compare, string file_name){
 			}
 		}	
 		WriteLogFile("%s is not matched\n", config_name);
+		//OutputDebugString("Not Matched\n");
 		return 0;
 	} else {
 		WriteLogFile("%s is not found!", file_name.c_str()); 
+		//OutputDebugString("not found!\n");
 		return 0;
 	}
 	return 0;
