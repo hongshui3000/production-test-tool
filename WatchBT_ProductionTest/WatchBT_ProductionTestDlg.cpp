@@ -3135,15 +3135,13 @@ int PCBTEST_Initialization()
 #if 1 /*Seavia 20150903, add Project information, store in PSKEY_USER34 */
 	uint16 psKey[2]={0};
 	uint16 prjInfo[2]={0};
-
 	uint16 model = 0;
 	uint16 FirmwareVersion = 0;
-	uint32 currentSerialNumber = 0;
+
 	CString ModelFWInformation;
 	projectInformationStr = "PRJ_INFO: ";
 
 	if (ReadPskey(2, PSKEY_USER34, prjInfo) == 1){
-		
 		model = prjInfo[0];
 		FirmwareVersion = prjInfo[1];
 
@@ -3158,75 +3156,57 @@ int PCBTEST_Initialization()
 			SetStatus("%s is wrong fw version", ModelFWInformation);
 			return 0;
 		}
-	}
-	else{
+	}else{
 		SetStatus("Read pskey_user34 fail");
 		WriteMainLogFile ("PCBTEST_Initialization : ReadPsKey(PSKEY_USER34) FAIL.");
 		//GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
 	}
 #endif
+#if 1 /*Philip 20151202, Serial number stores in PSKEY_USER40 */
+	uint32 DeviceSN = 0;
 
 	if (ReadPskey(2, PSKEY_USER40, psKey) == 1)
 	{
-		currentSerialNumber = psKey[0] << 16;
-		currentSerialNumber += psKey[1];
+		DeviceSN = psKey[0] << 16;
+		DeviceSN += psKey[1];
 	}
-
-	//only write the serial number to PSKEY_USER40 if there is no serial number stored 
-	if (currentSerialNumber <= 0)
-	{	
-		if ( (availSerialNumber <= 0) || 
-			!((availSerialNumber >= startingAvailSerialNumber) && (availSerialNumber <= endingAvailSerialNumber))
-			){	
-				//serialNumber = 0;
-				SetStatus("Out Of Serial Number");
+	if (DeviceSN == 0){	
+		if ((availSerialNumber < startingAvailSerialNumber)|| 
+			(availSerialNumber > endingAvailSerialNumber)){	
+				serialNumber = 0;
+				SetStatus("Out of serial number rule");
 				return 0;
-		}
-		else
-		{
-			psKey[0] = (availSerialNumber >> 16)&0xFFFF;
-			psKey[1] = availSerialNumber&0xFFFF;
-	 
-			if (SetPskey(2, PSKEY_USER40, psKey))
-			{	
+		}else{
+			psKey[0] = (availSerialNumber >> 16) & 0xFFFF;
+			psKey[1] = availSerialNumber & 0xFFFF; 
+			if (SetPskey(2, PSKEY_USER40, psKey)){	
 				serialNumber = availSerialNumber;
 				availSerialNumber++;
 				WriteSerialNumberFile(ASSIGNED_SERIAL_NUMBERS_FILENAME);
-				_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
 				updateSerialNumberTextBox = 1;
-			}
-
-			else
-			{
+			}else{
 				updateSerialNumberTextBox = 2; 
 				serialNumber = 0;
 				SetStatus("Serial Number Write Fail");
 				return 0;
-					//GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
 			}
 		}
-		
-	}
-	else
-	{	
-		serialNumber = currentSerialNumber;
-		_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
+	}else{	
+		serialNumber = DeviceSN;
 		updateSerialNumberTextBox = 3;
-	
 	}
-	
-	if (ReadDutBluetoothAddr(currentBluetoothAddressString))
-	{
+	_snprintf(serialNumberArray, sizeof(serialNumberArray)-1, "SN#: %04x %04x", ((serialNumber >> 16)&0xFFFF), serialNumber&0xFFFF);
+#endif	
+
+	if (ReadDutBluetoothAddr(currentBluetoothAddressString)){
 		currentBluetoothAddrDisplayStr = "CURR_BT_ADDR: 0x";
 		currentBluetoothAddrDisplayStr += /*currentBluetoothAddrStr*/currentBluetoothAddressString;
-	}
-	else
-	{	
+	}else{	
 		currentBluetoothAddrDisplayStr = "CURR_BT_ADDR: Unknown";
 		SetStatus("Fail To Read BT_ADDR DUT");
 		return 0;
 	}
-	
+
 	return 1;
 }
 
@@ -7411,7 +7391,8 @@ int ReadSerialNumberFile(string FileName)
 			{	
 				if (Index == 0)
 				{	//use the next number as the available serial number
-					availSerialNumber = number+1;
+					//availSerialNumber = number+1;
+					availSerialNumber = number;
 				}
 			}
 			else if (FileName == AVAIL_SERIAL_NUMBERS_FILENAME)
@@ -7455,7 +7436,8 @@ int WriteSerialNumberFile(string FileName)
 		return 0;
 	}
 	//SerialNumbersFile << snPrefixString << end;
-	SerialNumbersFile << serialNumberArray << endl;
+	//SerialNumbersFile << serialNumberArray << endl;
+	SerialNumbersFile << availSerialNumber << endl;
     SerialNumbersFile.close();
 	return 1;
 }
@@ -8046,7 +8028,7 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 	Begin = Last = GetTickCount()/1000;
 	MultimeterInitFlag = 0;
 
-	//Routine initialize status 
+	//initialization
 	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES; i++)
 	{	
 		GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Not started"); 
@@ -8061,6 +8043,8 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 	label_text_color = GREY;
 	label_text_id = IDC_STATIC_PCB_TEST_RESULT;
 	GetDlgItem(IDC_STATIC_PCB_TEST_RESULT)->SetWindowText(" ");
+
+	//Task routine
 	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES/*-1*/; i++){
 		if (abort)
 			break;
@@ -8073,6 +8057,7 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 #ifndef test_mode
 				//int retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
 				pcb_tests_results[i] = pcb_tests[i]();
+				DebugPrint("pcb_tests_results[%d] = %d\n", i, pcb_tests_results[i]);
 				if (pcb_tests_results[i] != SUCCESS){
 					if (i == 0)
 					{
@@ -8106,8 +8091,9 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 								CloseUSBHandles(UsbGpioModuleConnectionHd);
 								CloseUSBHandles(UsbMultimeterModuleConnectionHd);
 								Sleep(3000);
-								if (PCBTEST_Initialization() == SUCCESS)
-									break;
+								//why we need to do this??
+								//if (PCBTEST_Initialization() == SUCCESS)
+								//	break;
 								WriteLogFile("PCB retry init %d", init);
 							}
 							if (init == 2)
@@ -8182,34 +8168,28 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 				//}
 				GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText(strMessage); 
 
-				if(i == 0)
-				{
-
+				if(i == 0){
 					if(updateSerialNumberTextBox == 1)
 						GetDlgItem(IDC_STATIC_SERIAL_NUMBER)->SetWindowText(serialNumberArray);
-					else if(updateSerialNumberTextBox == 2)
-					{
+					else if(updateSerialNumberTextBox == 2){
 									//label_text_color = RED;
 									GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("FAILURE"); 
 									//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
 									GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText("write serial number failed.");
 					}
-					else if(updateSerialNumberTextBox == 3)
-					{
+					else if(updateSerialNumberTextBox == 3){
 						GetDlgItem(IDC_STATIC_SERIAL_NUMBER)->SetWindowText(serialNumberArray);
 					}
 					updateSerialNumberTextBox = 0;
 
-					if(pcb_tests_results[i] == SUCCESS) 
-					{
+					if(pcb_tests_results[i] == SUCCESS){
 						GetDlgItem(IDC_STATIC_CURR_BT_ADDR)->SetWindowText(currentBluetoothAddrDisplayStr);
 
 						//Seavia 20150903
 						GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
 
 					}
-					else
-					{
+					else{
 						break;
 					}
 				}
