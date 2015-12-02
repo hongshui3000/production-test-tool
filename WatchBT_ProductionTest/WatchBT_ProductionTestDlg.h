@@ -5,6 +5,7 @@
 
 //debug mode without Endpoint
 #define DESIGN_MODE 
+#undef DESIGN_MODE
 #ifdef DESIGN_MODE
 	#undef PERIPHERAL_CONNECTION 
 	#undef ENPOINT_FUNCTIONALITY 

@@ -1,0 +1,25 @@
+PCBA Wed Dec 02 14:57:47 2015 
+PCBA Wed Dec 02 14:57:47 2015 1) Initialization: result is 1
+PCBA Wed Dec 02 14:57:47 2015 spMapPio32 Fail
+PCBA Wed Dec 02 14:57:47 2015 PCBTEST_oledTest:spMapPio32 failed.
+PCBA Wed Dec 02 14:57:47 2015 
+PCBA Wed Dec 02 14:57:47 2015 Retry:DUT bccmdSetColdReset failed
+PCBA Wed Dec 02 14:57:50 2015 OpenUsbModule:unable to open comport 3
+PCBA Wed Dec 02 14:57:50 2015 OpenUsbModule:unable to open comport 9
+PCBA Wed Dec 02 14:57:50 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Wed Dec 02 14:57:50 2015 MultimeterInit:totalbytes 14 != completedbytes 0
+PCBA Wed Dec 02 14:57:50 2015 PCB retry init 0
+PCBA Wed Dec 02 14:57:53 2015 OpenUsbModule:unable to open comport 3
+PCBA Wed Dec 02 14:57:53 2015 OpenUsbModule:unable to open comport 9
+PCBA Wed Dec 02 14:57:53 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Wed Dec 02 14:57:53 2015 MultimeterInit:totalbytes 14 != completedbytes 0
+PCBA Wed Dec 02 14:57:53 2015 PCB retry init 1
+PCBA Wed Dec 02 14:57:53 2015 2) OLED: result is 0
+PCBA Wed Dec 02 14:57:53 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Wed Dec 02 14:57:53 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Wed Dec 02 14:57:53 2015 Unable to turn VBAT IO PIN  output off
+PCBA Wed Dec 02 14:57:53 2015 WriteToUsbModule:Writing of serial communication has problem.
+PCBA Wed Dec 02 14:57:53 2015 ChangeGPIOState:totalbytes 13 != completedbytes 0
+PCBA Wed Dec 02 14:57:53 2015 Unable to turn VCHARGE IO PIN  output off
+PCBA Wed Dec 02 14:57:53 2015 PCB OVERALL RESULT is 0
+

@@ -3076,7 +3076,7 @@ int PRODUCT_Initialization()
 
 int PCBTEST_Initialization()
 {
-#ifndef DESIGN_MODE
+#ifdef PERIPHERAL_CONNECTION
 	int vcharge_state, vbat_state;
 
 	if(PeriphiralOpen(PERIPHIRAL_ID_GPIOBOARD, SPI_CONNECTION))
@@ -3165,8 +3165,7 @@ int PCBTEST_Initialization()
 #if 1 /*Philip 20151202, Serial number stores in PSKEY_USER40 */
 	uint32 DeviceSN = 0;
 
-	if (ReadPskey(2, PSKEY_USER40, psKey) == 1)
-	{
+	if (ReadPskey(2, PSKEY_USER40, psKey) == 1){
 		DeviceSN = psKey[0] << 16;
 		DeviceSN += psKey[1];
 	}
@@ -7437,7 +7436,7 @@ int WriteSerialNumberFile(string FileName)
 	}
 	//SerialNumbersFile << snPrefixString << end;
 	//SerialNumbersFile << serialNumberArray << endl;
-	SerialNumbersFile << availSerialNumber << endl;
+	SerialNumbersFile << hex << availSerialNumber << endl;
     SerialNumbersFile.close();
 	return 1;
 }
@@ -8029,8 +8028,7 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 	MultimeterInitFlag = 0;
 
 	//initialization
-	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES; i++)
-	{	
+	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES; i++){	
 		GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Not started"); 
 		GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText(" ");
 		label_text_color = GREY;
@@ -8045,191 +8043,137 @@ void CWatchBT_ProductionTestDlg::OnBnClickedStartPcbTest(){
 	GetDlgItem(IDC_STATIC_PCB_TEST_RESULT)->SetWindowText(" ");
 
 	//Task routine
-	for (i=0; i<NUM_OF_PCB_TEST_ROUTINES/*-1*/; i++){
+	int retries;
+	for (i = 0; i < NUM_OF_PCB_TEST_ROUTINES; i++){
 		if (abort)
 			break;
+		if (!(IsDlgButtonChecked(pcbTestCheckBoxesIDs[i])) && (i!=0)){
+			DebugPrint("Deselect Task %d(%d)\n", i, IsDlgButtonChecked(pcbTestCheckBoxesIDs[i]));
+			continue;
+		}
+		if (pcb_tests[i] == NULL)
+			continue;
 
-		if (IsDlgButtonChecked(pcbTestCheckBoxesIDs[i]) || (i==0)){
-			int retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
-			if (pcb_tests[i] != NULL){	
-				SetStatus("");
-				GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Progress"); 
-#ifndef test_mode
-				//int retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
-				pcb_tests_results[i] = pcb_tests[i]();
-				DebugPrint("pcb_tests_results[%d] = %d\n", i, pcb_tests_results[i]);
-				if (pcb_tests_results[i] != SUCCESS){
-					if (i == 0)
-					{
-						//retry init once
-						SetStatus("");
-						label_text_color = GREY;
-						GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("RETRY");
-						GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
+		pcb_tests_results[i] = pcb_tests[i]();
+		DebugPrint("pcb_tests_results[%d] = %d\n", i, pcb_tests_results[i]);
+
+		SetStatus("");
+		GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("Progress"); 
+
+		retries = (int) GetConfigurationValue(PRODUCT_RX_RETRY_STR);
+		//retry procedure
+		if (pcb_tests_results[i] != SUCCESS){
+			if (i == 0){
+				label_text_color = GREY;
+				GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("RETRY");
+				GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
+				CsrDevicesClose();
+				CloseUSBHandles(UsbGpioModuleConnectionHd);
+				CloseUSBHandles(UsbMultimeterModuleConnectionHd);
+				Sleep(5000);
+				pcb_tests_results[0] = pcb_tests[0]();
+
+			} else if ((retries > 0) && (pcb_tests[i] != PCBTEST_serialFlashCheck)){
+				label_text_color = GREY;
+				GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("RETRY");
+				strMessage.Format("%s", TestStatusString);
+				GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText(strMessage);
+				if(bccmdSetColdReset(dutHandle, 5000) != TE_OK)
+					WriteLogFile("Retry:DUT bccmdSetColdReset failed");
+				//retry all tests except serial flash based on config
+				for (; retries > 0; retries--){
+					int init = 0;
+					for (; init < 2; init++){
 						CsrDevicesClose();
 						CloseUSBHandles(UsbGpioModuleConnectionHd);
 						CloseUSBHandles(UsbMultimeterModuleConnectionHd);
-						Sleep(5000);
-						pcb_tests_results[0] = pcb_tests[0]();
+						Sleep(3000);
+						//why we need to do this??
+						//if (PCBTEST_Initialization() == SUCCESS)
+						//	break;
+						UsbMultimeterModuleInit();
+						UsbGpioModuleInit();
+						MultimeterInit(CURRENT_MEASUREMENT);
+						WriteLogFile("PCB retry init %d", init);
 					}
-					else if ((retries > 0) && (pcb_tests[i] != PCBTEST_serialFlashCheck))//((i >= 3) && (i <= 6))
-					{
-						label_text_color = GREY;
-						GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("RETRY");
-						strMessage.Format("%s", TestStatusString);
-						GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText(strMessage);
-						if(bccmdSetColdReset(dutHandle, 5000) != TE_OK)
-							WriteLogFile("Retry:DUT bccmdSetColdReset failed");
-
-						//retry all tests except serial flash based on config
-						for (; retries > 0; retries--)
-						{
-							int init = 0;
-							for (; init < 2; init++)
-							{
-								CsrDevicesClose();
-								CloseUSBHandles(UsbGpioModuleConnectionHd);
-								CloseUSBHandles(UsbMultimeterModuleConnectionHd);
-								Sleep(3000);
-								//why we need to do this??
-								//if (PCBTEST_Initialization() == SUCCESS)
-								//	break;
-								WriteLogFile("PCB retry init %d", init);
-							}
-							if (init == 2)
-								break;
-
-							WriteLogFile("PCB retry %s", pcb_test_routines_names[i]);
-							SetStatus("");
-							pcb_tests_results[i] = pcb_tests[i]();
-							if (pcb_tests_results[i] == SUCCESS)
-								break;
-						}
-					}
-				}
-#else
-				//if (i == 0) pcb_tests_results[i] = 1; /*< NUM_OF_PCB_TEST_ROUTINES-2) pcb_tests_results[i] = SUCCESS;*/ else pcb_tests_results[i] = SUCCESS;
-#endif
-				WriteLogFile ("%s: result is %d", pcb_test_routines_names[i], pcb_tests_results[i]); 
-				if (pcb_tests_results[i] == 1)
-				{
-					WriteMainLogFile("%s: SUCCESS", pcb_test_routines_names[i]);
-				}
-				else
-				{
-					WriteMainLogFile("%s: FAILURE", pcb_test_routines_names[i]);
-				}
-				
-				label_text_id = pcbTestResultsLabelsIDs[i];
-				//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
-
-				if (pcb_tests_results[i] == SUCCESS)
-				{	
-					label_text_color = GREEN;
-					GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("PASS"); 
-				}	
-				else 
-				{	
-					label_text_color = RED;
-					GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("FAILURE"); 
-
-					if (GetConfigurationValue(STOP_AT_FIRST_FAIL_STR))
-					{
-						abort = 1;
-						//break;
-					}
-				}
-				//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
-				//InvalidateRect(NULL, false);
-				
-				
-
-#ifdef display_time					
-				Now = GetTickCount()/1000;
-				TimeElasp = Now-Last; 
-				TotalTimeElasp = Now-Begin;
-				Last = Now;
-#endif		
-				//if (pcb_tests_results[i] != 1)
-				//{
-#ifndef display_time
-					strMessage.Format("%s", TestStatusString);
-#else
-					strMessage.Format("%d, %s", TotalTimeElasp, TestStatusString);
-#endif
-				//}
-				//else
-				//{
-#ifndef display_time
-					//strMessage.Format("Passed: %s", TestStatusString);
-#else
-					//strMessage.Format("%d, %d, %s", TimeElasp, TotalTimeElasp, TestStatusString);
-#endif
-				//}
-				GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText(strMessage); 
-
-				if(i == 0){
-					if(updateSerialNumberTextBox == 1)
-						GetDlgItem(IDC_STATIC_SERIAL_NUMBER)->SetWindowText(serialNumberArray);
-					else if(updateSerialNumberTextBox == 2){
-									//label_text_color = RED;
-									GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("FAILURE"); 
-									//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
-									GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText("write serial number failed.");
-					}
-					else if(updateSerialNumberTextBox == 3){
-						GetDlgItem(IDC_STATIC_SERIAL_NUMBER)->SetWindowText(serialNumberArray);
-					}
-					updateSerialNumberTextBox = 0;
-
-					if(pcb_tests_results[i] == SUCCESS){
-						GetDlgItem(IDC_STATIC_CURR_BT_ADDR)->SetWindowText(currentBluetoothAddrDisplayStr);
-
-						//Seavia 20150903
-						GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
-
-					}
-					else{
+					if (init == 2)
 						break;
-					}
+
+					WriteLogFile("PCB retry %s", pcb_test_routines_names[i]);
+					SetStatus("");
+					pcb_tests_results[i] = pcb_tests[i]();
+					if (pcb_tests_results[i] == SUCCESS)
+						break;
 				}
-
-			}
-			else
-			{	
 			}
 		}
-		else
-		{
-			//strMessage.Format(_T("BER is: %.6f%% \n"), BER);
-			
+		WriteLogFile ("%s: result is %d", pcb_test_routines_names[i], pcb_tests_results[i]); 				
+		label_text_id = pcbTestResultsLabelsIDs[i];
+		//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
+		if (pcb_tests_results[i] == SUCCESS){	
+			label_text_color = GREEN;
+			GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("PASS");
+			WriteMainLogFile("%s: SUCCESS", pcb_test_routines_names[i]);
+		}else{	
+			label_text_color = RED;
+			GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("FAILURE"); 
+			WriteMainLogFile("%s: FAILURE", pcb_test_routines_names[i]);
+			if (GetConfigurationValue(STOP_AT_FIRST_FAIL_STR)){
+				abort = 1;
+				//break;
+			}
 		}
-	}
+				
+#ifdef display_time					
+		Now = GetTickCount()/1000;
+		TimeElasp = Now-Last; 
+		TotalTimeElasp = Now-Begin;
+		Last = Now;
+		strMessage.Format("%d, %s", TotalTimeElasp, TestStatusString);
+#else
+		strMessage.Format("%s", TestStatusString);
+#endif		
 
-	for (i=/*0*/1; i<NUM_OF_PCB_TEST_ROUTINES/*-1*/; i++)
-	{
-		if (pcb_tests_results[i] != NOT_STARTED)  
-		{	
-			pcb_tests_overall_result = pcb_tests_results[i];
-			if (pcb_tests_overall_result != SUCCESS) 
-			{	
+		GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText(strMessage); 
+		if(i == 0){
+			if(updateSerialNumberTextBox == 1){
+				GetDlgItem(IDC_STATIC_SERIAL_NUMBER)->SetWindowText(serialNumberArray);
+			}else if(updateSerialNumberTextBox == 2){
+				//label_text_color = RED;
+				GetDlgItem(pcbTestResultsLabelsIDs[i])->SetWindowText("FAILURE"); 
+				//GetDlgItem(pcbTestResultsLabelsIDs[i])->SendMessage(WM_CTLCOLORSTATIC );
+				GetDlgItem(pcbTestResultsDetailsLabelsIDs[i])->SetWindowText("write serial number failed.");
+			}else if(updateSerialNumberTextBox == 3){
+				GetDlgItem(IDC_STATIC_SERIAL_NUMBER)->SetWindowText(serialNumberArray);
+			}
+			updateSerialNumberTextBox = 0;
+
+			if(pcb_tests_results[i] == SUCCESS){
+				GetDlgItem(IDC_STATIC_CURR_BT_ADDR)->SetWindowText(currentBluetoothAddrDisplayStr);
+
+				//Seavia 20150903
+				GetDlgItem(IDC_STATIC_PRJ_INFO)->SetWindowText(projectInformationStr);
+
+			}else{
 				break;
 			}
 		}
-		else 
-		{	
+	}
+//
+//	Check test result
+//
+	for (i = 0; i < NUM_OF_PCB_TEST_ROUTINES; i++){
+		if (pcb_tests_results[i] != NOT_STARTED){	
+			pcb_tests_overall_result = pcb_tests_results[i];
+			if (pcb_tests_overall_result != SUCCESS){	
+				break;
+			}
+		}else{	
 			pcb_tests_not_complete = 1;
 		}
 	}
-
-	if (pcb_tests_overall_result == SUCCESS) 
-	{
-		pcb_tests_overall_result = pcb_tests_results[0];
-	}
-
-	if (pcb_tests_overall_result == SUCCESS) 
-	{	if (pcb_tests_not_complete)
-		{
+	if (pcb_tests_overall_result == SUCCESS){	
+		if (pcb_tests_not_complete){
 			pcb_tests_overall_result = NOT_COMPLETE;
 		}
 	}
